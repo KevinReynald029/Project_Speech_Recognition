@@ -1,0 +1,17 @@
+Kata teranotasi: 31816
+
+=== text-phone vs anotasi ===
+Baris text-phone: 31816 | kata tidak ada di text-phone: 0 | urutan fonem beda: 0
+Distribusi tag posisi: {'B': 30029, 'E': 30029, 'I': 32600, 'S': 1787}
+
+=== lexicon.txt ===
+Kata unik di lexicon: 2604 | kata dengan >1 pelafalan: 242
+Kata unik di anotasi: 2604 | kata tidak ada di lexicon (OOV): 0
+
+Cocok persis dgn lexicon (dengan digit stress): 31816/31816 (100.00%)
+Cocok setelah digit stress dibuang: 31816/31816 (100.00%)
+Contoh tidak cocok walau digit dibuang:
+
+=== Digit stress pada kata satu vokal ===
+Jumlah kata satu vokal: 27018 | distribusi digit: {'0': 26589, '1': 429}
+Kata >1 vokal: 4790 | distribusi digit: {'1': 4484, '0': 5807, '2': 96}

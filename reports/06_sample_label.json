@@ -1,0 +1,113 @@
+{
+  "utt_id": "000010011",
+  "split": "train",
+  "speaker": "0001",
+  "age": 6,
+  "gender": "m",
+  "audio_path": "WAVE/SPEAKER0001/000010011.WAV",
+  "text": "WE CALL IT BEAR",
+  "sentence_accuracy": 8.0,
+  "sentence_fluency": 9.0,
+  "sentence_prosodic": 9.0,
+  "sentence_completeness": 10.0,
+  "sentence_total": 8.0,
+  "sentence_total_100": 80.0,
+  "words": [
+    {
+      "word": "WE",
+      "word_accuracy": 10.0,
+      "word_stress": 10.0,
+      "word_total": 10.0,
+      "phones": [
+        "W",
+        "IY"
+      ],
+      "phone_ids": [
+        37,
+        19
+      ],
+      "phone_scores": [
+        2.0,
+        2.0
+      ],
+      "phone_scores_norm": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "word": "CALL",
+      "word_accuracy": 10.0,
+      "word_stress": 10.0,
+      "word_total": 10.0,
+      "phones": [
+        "K",
+        "AO",
+        "L"
+      ],
+      "phone_ids": [
+        21,
+        5,
+        22
+      ],
+      "phone_scores": [
+        2.0,
+        1.8,
+        1.8
+      ],
+      "phone_scores_norm": [
+        1.0,
+        0.9,
+        0.9
+      ]
+    },
+    {
+      "word": "IT",
+      "word_accuracy": 10.0,
+      "word_stress": 10.0,
+      "word_total": 10.0,
+      "phones": [
+        "IH",
+        "T"
+      ],
+      "phone_ids": [
+        18,
+        32
+      ],
+      "phone_scores": [
+        2.0,
+        2.0
+      ],
+      "phone_scores_norm": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "word": "BEAR",
+      "word_accuracy": 6.0,
+      "word_stress": 10.0,
+      "word_total": 6.0,
+      "phones": [
+        "B",
+        "EH",
+        "R"
+      ],
+      "phone_ids": [
+        8,
+        12,
+        29
+      ],
+      "phone_scores": [
+        2.0,
+        1.0,
+        1.0
+      ],
+      "phone_scores_norm": [
+        1.0,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

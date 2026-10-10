@@ -1,0 +1,92 @@
+=== VALIDASI ===
+Teks Kaldi != gabungan words scores.json: 0
+Jumlah phones != jumlah phones-accuracy: 0
+Baris: sentence 5000 | word 31816 | phone 94445 | mispron 3403
+
+=== SKALA SKOR LEVEL KALIMAT ===
+      accuracy  fluency  completeness  prosodic  total
+min       1.00     0.00          0.00      0.00   0.00
+max      10.00    10.00         10.00     10.00  10.00
+mean      7.66     7.78          9.98      7.46   7.22
+
+completeness nilai unik: [0.0, 1.7, 5.0, 6.0, 6.7, 7.1, 7.5, 8.0, 8.6, 8.9, 9.0, 10.0]
+
+=== SKALA SKOR LEVEL KATA ===
+      accuracy  stress  total
+min       0.00    5.00   1.00
+max      10.00   10.00  10.00
+mean      9.38    9.95   9.43
+stress nilai: {10: 31529, 5: 287}
+
+=== INVENTARIS FONEM ===
+Fonem unik dengan stress digit: 67
+Fonem unik tanpa stress digit: 39
+Frekuensi fonem dasar:
+phone_base
+AH    8830
+T     7977
+N     6014
+IH    5907
+S     4230
+IY    3719
+D     3672
+L     3642
+W     3148
+DH    3027
+M     2979
+AE    2855
+K     2809
+UW    2765
+EH    2538
+Z     2529
+AY    2464
+R     2445
+HH    2174
+B     1747
+F     1714
+V     1617
+EY    1605
+OW    1558
+AO    1497
+P     1389
+ER    1327
+Y     1202
+UH    1131
+G     1118
+NG    1099
+AA     884
+SH     699
+AW     690
+TH     649
+JH     368
+CH     346
+OY      56
+ZH      25
+Distribusi stress digit: {'': 57040, '0': 32396, '1': 4913, '2': 96}
+
+=== SKOR FONEM ===
+min 0.0 | max 2.0 | mean 1.862 | nilai unik: 11
+Sebaran:
+score
+<0.5         3.60
+0.5-0.99     1.21
+1.0-1.49     2.85
+1.5-1.99    11.66
+=2.0        80.68
+Skor paling sering: {2.0: 76202, 1.8: 6141, 1.6: 4872, 0.0: 2287, 1.2: 1501, 0.4: 1041, 0.8: 966, 1.4: 861}
+
+=== MISPRONUNCIATIONS ===
+Total blok: 3403 | fonem skor <0.5: 3403
+pronounced-phone terbanyak: {'<DEL>': 846, '<unk>': 820, 'IH': 157, 'AA': 149, 'AH': 143, 'EY': 78, 'EH': 76, 'S': 69, 'OW': 67, 'T': 64}
+Pasangan canonical->pronounced terbanyak:
+canonical  pronounced
+AH         <unk>         106
+T          <DEL>         101
+N          <DEL>          78
+IH         <DEL>          71
+D          <DEL>          65
+Z          <DEL>          62
+IH         <unk>          61
+AH         <DEL>          58
+N          <unk>          56
+S          <DEL>          51

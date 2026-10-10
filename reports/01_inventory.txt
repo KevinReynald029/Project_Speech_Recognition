@@ -1,0 +1,124 @@
+=== CUPLIKAN FILE ===
+
+[train/wav.scp] total baris: 2500
+  000010011	WAVE/SPEAKER0001/000010011.WAV
+  000010035	WAVE/SPEAKER0001/000010035.WAV
+  000010053	WAVE/SPEAKER0001/000010053.WAV
+
+[train/text] total baris: 2500
+  000010011	WE CALL IT BEAR
+  000010035	ZERO THREE FIVE ONE
+  000010053	THREE TWO TWO SEVEN
+
+[train/utt2spk] total baris: 2500
+  000010011 0001
+  000010035 0001
+  000010053 0001
+
+[train/spk2age] total baris: 125
+  1027	37
+  1029	31
+  1033	30
+
+[train/spk2gender] total baris: 125
+  0001	m
+  0005	m
+  0006	f
+
+[resource/lexicon.txt] total baris: 2861
+  A	AH0
+  A	EY0
+  ABILITY	AH0 B IH1 L AH0 T IY0
+
+[resource/text-phone] total baris: 31816
+  000010011.0	W_B IY0_E
+  000010011.1	K_B AO0_I L_E
+  000010011.2	IH0_B T_E
+
+=== AUDIO ===
+Jumlah file WAV: 5245
+Jumlah folder speaker: 250
+
+[train] utterance: 2500 | speaker: 125 | file hilang: 0
+
+[test] utterance: 2500 | speaker: 125 | file hilang: 0
+
+Sample rate: {16000: 5245}
+Channels: {1: 5245}
+File rusak: 0
+Durasi (detik) -> min 1.59 | max 20.41 | mean 4.10 | median 3.58
+Total durasi: 5.98 jam
+
+=== scores.json ===
+Jumlah entri: 5000
+Contoh key: 000010011
+{
+  "accuracy": 8,
+  "completeness": 10,
+  "fluency": 9,
+  "prosodic": 9,
+  "text": "WE CALL IT BEAR",
+  "total": 8,
+  "words": [
+    {
+      "accuracy": 10,
+      "phones": [
+        "W",
+        "IY0"
+      ],
+      "phones-accuracy": [
+        2,
+        2
+      ],
+      "stress": 10,
+      "text": "WE",
+      "total": 10
+    },
+    {
+      "accuracy": 10,
+      "phones": [
+        "K",
+        "AO0",
+        "L"
+      ],
+      "phones-accuracy": [
+        2,
+        1.8,
+        1.8
+      ],
+      "stress": 10,
+      "text": "CALL",
+      "total": 10
+    },
+    {
+      "accuracy": 10,
+      "phones": [
+        "IH0",
+        "T"
+      ],
+      "phones-accuracy": [
+        2,
+        2
+      ],
+      "stress": 10,
+      "text": "IT",
+      "total": 10
+    },
+    {
+      "accuracy": 6,
+      "phones": [
+        "B",
+        "EH0",
+        "R"
+      ],
+      "phones-accuracy": [
+        2,
+        1,
+        1
+      ],
+      "stress": 10,
+      "text": "BEAR",
+      "total": 6
+    }
+  ]
+}

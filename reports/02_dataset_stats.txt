@@ -1,0 +1,49 @@
+Total utterance di tabel: 5000 | speaker unik: 250 | umur hilang: 0
+
+=== FILE EKSTRA === jumlah WAV: 5245 | ekstra: 245
+Ekstra per speaker (top 10):
+SPEAKER9612    10
+SPEAKER9616    10
+SPEAKER9628    10
+SPEAKER9649    10
+SPEAKER9610     9
+SPEAKER9613     9
+SPEAKER9630     9
+SPEAKER9631     9
+SPEAKER9643     9
+SPEAKER9645     9
+Contoh nama file ekstra: 096000023.WAV, 096000024.WAV, 096000025.WAV, 096000026.WAV, 096000028.WAV, 096000029.WAV, 096000030.WAV, 096010024.WAV, 096010025.WAV, 096010026.WAV
+Durasi ekstra: min 2.56 | max 12.31 | mean 6.03
+
+=== KONSISTENSI ===
+ID wav.scp == ID scores.json: True
+Teks beda antara 'text' dan scores.json: 720
+Speaker bocor train/test (irisan): 0
+
+=== STATISTIK PER SPLIT ===
+
+[test] utt: 2500 | speaker: 125 | total durasi: 2.69 jam
+  durasi (s): min 1.79 | max 12.23 | mean 3.88 | median 3.50
+  jumlah kata: min 1 | max 10 | mean 6.39
+  gender speaker: {'m': 67, 'f': 58}
+  umur speaker: min 6 | max 43 | mean 16.7
+  anak (<18): 64 | dewasa (>=18): 61
+  utt per speaker: {'min': 20.0, 'max': 20.0, 'mean': 20.0}
+
+[train] utt: 2500 | speaker: 125 | total durasi: 2.88 jam
+  durasi (s): min 1.59 | max 20.41 | mean 4.14 | median 3.55
+  jumlah kata: min 1 | max 10 | mean 6.34
+  gender speaker: {'f': 67, 'm': 58}
+  umur speaker: min 6 | max 37 | mean 16.8
+  anak (<18): 58 | dewasa (>=18): 67
+  utt per speaker: {'min': 20.0, 'max': 20.0, 'mean': 20.0}
+
+=== SEBARAN UMUR (semua speaker) ===
+age
+(0, 6]       25
+(6, 9]       49
+(9, 12]      30
+(12, 17]     18
+(17, 25]     93
+(25, 40]     34
+(40, 100]     1
