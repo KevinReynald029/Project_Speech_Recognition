@@ -1,0 +1,37 @@
+{
+  "created_date": "2026-10-17",
+  "source_repository": "https://github.com/KevinReynald029/Project_Speech_Recognition",
+  "source_commit": "0b02abfed612082029c721af322126b3f4fbeca9",
+  "drive_folder": "https://drive.google.com/drive/folders/163B6YyeoYBNt9B6cBVCPLD2k5kxeDMBd",
+  "drive_archive_file_id": "1aA5T6aV79LAXtXChhgNeaV4ZLOYwMCv_",
+  "drive_archive_sha256": "8a23a0eb3a900d934744db2cf365f54e834f1e49a10b3512504e6d52b247ff8d",
+  "source_pdf_sha256": "210a053e5bb7ad6d376b38a7f3d0edd89fae2725ab6a904e1ca0d532dae6990c",
+  "handoff_files": {
+    "audio_manifest.csv": "c5efdd8f615faf45dc1e546baff59e34b2d9672d47196256299efb71dd72b576",
+    "DATA_README.md": "7adb80d6821cf53e7b477b1d84edc132e26d6e6f0aeaa1d3ab1c4ea3af20b1dc",
+    "manifest_test.jsonl": "24d5c8fd43b6925d1c30cfe7f3bef0ce2b27b781c1bb2fc34882cddf1cd570bd",
+    "manifest_train.jsonl": "62a523bf5d5617db9b6859cd3eb92a349b9f6f4e5b4248eef1e822614b30ea1f",
+    "manifest_val.jsonl": "3a6cc3414d58a1d82427c7bfc600d2c18bc48d4aceae50607494a33ff3326284",
+    "phoneme_vocab.json": "7fc0ad6e9447781856f76d4e3b9a614719a9ff3ea1dfaea0defdb19fff3b0608",
+    "splits.csv": "aa6e40e19758d15b404e30f0b69d494d41b5ee77c92a298d12e6e95fb580b384"
+  },
+  "code_archive_audio_policy": "Bulk WAV and native runtime excluded from code ZIP; full original audio and runtime remain in the requested local project. A real sample and marked synthetic fixtures are included.",
+  "runtime": {
+    "provider": "conda-forge",
+    "version": "5.5.1172",
+    "build": "cpu_hf03c2bf_5",
+    "platform": "win-64",
+    "lock_sha256": "612fa72b900b646fc4bb5a182dd5ed70b9769c1251a74fa73218200d8ba9b617"
+  },
+  "acoustic_model": {
+    "source": "https://github.com/tbright17/kaldi-dnn-ali-gop",
+    "archive_url": "https://s3.amazonaws.com/kaldi-dnn-ali-gop-models/dnn_model.tar.gz",
+    "archive_sha256": "0c38706a9d9dd38a5a65d6bea18a95e46a6067324108969a08a5514f6b940091",
+    "frozen": true,
+    "extractor_id": "kaldi-native-nnet3-881f9b2bb5e49b941737d24174955513ae018cb8e1b2a0469983c82fbb379938"
+  },
+  "calibrator_sha256": "69434344666e59186b6115ab22b0af81d80fb04f1fc47e6a19f3d51ad1034177",
+  "method_version": "gop-hgb-mae-v2",
+  "calibrator": "models/calibrator.json",
+  "test_reuse": true
+}

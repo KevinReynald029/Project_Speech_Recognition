@@ -1,0 +1,8 @@
+{
+  "reference_words": [
+    {"word": "WE", "phones": ["W", "IY"]},
+    {"word": "CALL", "phones": ["K", "AO", "L"]},
+    {"word": "IT", "phones": ["IH", "T"]},
+    {"word": "BEAR", "phones": ["B", "EH", "R"]}
+  ]
+}

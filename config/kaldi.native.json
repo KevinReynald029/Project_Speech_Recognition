@@ -1,0 +1,10 @@
+{
+  "backend": "native",
+  "project_root": "..",
+  "bin": "runtime/kaldi/Library/bin",
+  "model": "runtime/acoustic-assets/exp_dnn/nnet3",
+  "lang": "runtime/acoustic-assets/data_dnn/lang",
+  "ivector_extractor": "runtime/acoustic-assets/exp_dnn/extractor",
+  "scratch": ".cache/kaldi-scratch",
+  "timeout_seconds": 600
+}

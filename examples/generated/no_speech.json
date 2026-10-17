@@ -1,0 +1,12 @@
+{
+  "status": "error",
+  "method_version": "gop-hgb-mae-v2",
+  "phoneme_accuracy_summary": null,
+  "words": [],
+  "preprocessing": null,
+  "warnings": [],
+  "error": {
+    "code": "no_speech",
+    "message": "No usable signal energy after DC removal"
+  }
+}

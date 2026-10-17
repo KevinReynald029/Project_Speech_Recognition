@@ -1,0 +1,12 @@
+{
+  "status": "error",
+  "method_version": "gop-hgb-mae-v2",
+  "phoneme_accuracy_summary": null,
+  "words": [],
+  "preprocessing": null,
+  "warnings": [],
+  "error": {
+    "code": "invalid_audio",
+    "message": "Use finite, normalized PCM with shape samples or samples x channels, maximum 60 seconds"
+  }
+}
