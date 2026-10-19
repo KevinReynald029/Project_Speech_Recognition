@@ -1,0 +1,12 @@
+/README.md text eol=lf
+/Pronunciation_Scoring.ipynb text eol=lf
+/phoneme_scoring/** text eol=lf
+/phoneme_scoring/native.py -text whitespace=cr-at-eol
+/phoneme_scoring/kaldi.py -text
+/models/** -text whitespace=cr-at-eol
+/config/** text eol=lf
+/tests/** text eol=lf
+/tools/** text eol=lf
+/schemas/** text eol=lf
+*.wav binary
+*.png binary
