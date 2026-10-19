@@ -135,5 +135,4 @@ def train_experiment(data, cache, output, model_path=None, legacy_model=None):
     model_mae = report["results"]["test"]["gop_calibrated"]["phoneme"]["mae_raw_0_2"]
     report["beats_baseline_test_mae"] = {n: model_mae < report["results"]["test"][n]["phoneme"]["mae_raw_0_2"] for n in baseline_values}
     write_report(output, report, plots, title="Hasil GOP setelah perbaikan model")
-    dump_json(output / "alignment_failures.json", report["coverage"])
     return report
