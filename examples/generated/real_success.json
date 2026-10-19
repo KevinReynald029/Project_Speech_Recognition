@@ -133,7 +133,7 @@
     }
   ],
   "preprocessing": {
-    "version": "kevin-16k-rms25-peak1-edge500-v1",
+    "version": "handoff-16k-rms25-peak1-edge500-v1",
     "sample_rate": 16000,
     "duration_seconds": 2.58,
     "original_duration_seconds": 2.58,

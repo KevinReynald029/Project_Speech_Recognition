@@ -10,7 +10,7 @@ import numpy as np
 import soundfile as sf
 
 from phoneme_scoring import PronunciationScorer, configure_default, score_pronunciation
-from phoneme_scoring.audio import preprocess
+from phoneme_scoring.audio import validate_audio
 from phoneme_scoring.common import FEATURE_DIM, FEATURE_VERSION, METHOD_VERSION, PHONES, PREPROCESS_VERSION, ScoringError, audio_hash, dump_json, normalize_reference, reference_hash
 from phoneme_scoring.data import read_dataset, dataset_directory
 from phoneme_scoring.evaluation import correlation, evaluate, metrics, select_threshold
@@ -40,7 +40,7 @@ class AudioTests(unittest.TestCase):
     def test_silence_and_dc_are_not_scored(self):
         for x in (np.zeros(16000), np.full(16000, .3)):
             with self.assertRaises(ScoringError) as ctx:
-                preprocess(x, 16000)
+                validate_audio(x, 16000)
             self.assertEqual(ctx.exception.code, "no_speech")
 
     def test_bad_audio(self):
@@ -48,44 +48,48 @@ class AudioTests(unittest.TestCase):
         for x, sr in cases:
             with self.subTest(sr=sr, shape=np.asarray(x).shape):
                 with self.assertRaises(ScoringError) as ctx:
-                    preprocess(x, sr)
+                    validate_audio(x, sr)
                 self.assertEqual(ctx.exception.code, "invalid_audio")
 
-    def test_kevin_gain_and_edge_trim(self):
+    def test_prepared_audio_keeps_gain_silence_and_timeline(self):
         raw = np.r_[np.zeros(32000), tone(), np.zeros(32000)]
-        x, m, _ = preprocess(raw, 16000)
-        self.assertLess(len(x), len(raw))
-        self.assertGreater(m["leading_trim_seconds"], 1.4)
-        self.assertLess(abs(20*np.log10(np.sqrt(np.mean(x*x))) + 25), .03)
-        self.assertLessEqual(np.max(np.abs(x)), 10**(-1/20) + 1/32768)
+        actual, metadata, notes = validate_audio(raw, 16000)
+        from phoneme_scoring.common import pcm16
+        np.testing.assert_array_equal(actual, pcm16(raw).astype(float) / 32768)
+        self.assertEqual(len(actual), len(raw))
+        self.assertEqual(metadata["leading_trim_seconds"], 0)
+        self.assertEqual(metadata["gain_db"], 0)
+        self.assertEqual(notes, [])
 
-    def test_stereo_resample_and_pcm(self):
-        x = np.stack([tone(sr=48000)]*2, axis=1)
-        audio, meta, notes = preprocess(x, 48000)
-        self.assertEqual(audio.shape, (16000,))
-        self.assertEqual(meta["sample_rate"], 16000)
-        self.assertIn("resampled_to_16khz", notes)
-        signed = (tone()*32767).astype(np.int16)
-        y, _, _ = preprocess(signed, 16000)
-        self.assertAlmostEqual(np.std(y), np.std(audio), places=4)
+    def test_unprepared_stereo_and_other_rates_are_rejected(self):
+        for audio, rate in [(np.stack([tone()]*2, axis=1), 16000), (tone(sr=48000), 48000)]:
+            with self.subTest(rate=rate, shape=audio.shape):
+                with self.assertRaises(ScoringError) as ctx:
+                    validate_audio(audio, rate)
+                self.assertEqual(ctx.exception.code, "invalid_audio")
 
-    def test_preprocessed_is_not_normalized_twice(self):
+    def test_prepared_pcm_file_is_not_modified(self):
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp)/"sample.wav"
             sf.write(path, tone(), 16000, subtype="PCM_16")
             expected, _ = sf.read(path)
-            actual, meta, _ = preprocess(path, None, already_preprocessed=True)
+            actual, metadata, _ = validate_audio(path)
             np.testing.assert_array_equal(actual, expected)
-            self.assertEqual(meta["gain_db"], 0)
+            self.assertTrue(metadata["already_preprocessed"])
 
-    def test_quiet_realistic_recording_is_kept(self):
-        audio, _, _ = preprocess(tone()*.03, 16000)
-        self.assertGreater(np.std(audio), .01)
+    def test_quiet_recording_is_not_amplified(self):
+        audio, _, _ = validate_audio(tone()*.03, 16000)
+        self.assertLess(np.std(audio), .003)
+
+    def test_pcm_array_and_wav_decode_to_same_signal(self):
+        signed = (tone()*32767).astype(np.int16)
+        actual, _, _ = validate_audio(signed, 16000)
+        np.testing.assert_array_equal(actual, signed.astype(float)/32768)
 
 
 class EvidenceAndServiceTests(unittest.TestCase):
     def setUp(self):
-        self.audio, _, _ = preprocess(tone(), 16000)
+        self.audio, _, _ = validate_audio(tone(), 16000)
         self.evidence = fixture_evidence(self.audio)
 
     def test_feature_formula(self):
@@ -116,11 +120,11 @@ class EvidenceAndServiceTests(unittest.TestCase):
             with self.assertRaises(ScoringError):
                 validate_evidence(e, self.audio, WORDS)
 
-    def test_backend_to_frontend_contract(self):
+    def test_scoring_result_contract(self):
         with tempfile.TemporaryDirectory() as temp:
             save_evidence(temp, self.evidence, self.audio, WORDS)
             scorer = PronunciationScorer(CachedBackend(temp, "synthetic-test-only"), RidgeCalibrator(fixture_artifact()))
-            out = scorer.score_pronunciation(self.audio, 16000, WORDS, already_preprocessed=True)
+            out = scorer.score_pronunciation(self.audio, 16000, WORDS)
             self.assertEqual(out["status"], "ok")
             self.assertAlmostEqual(out["phoneme_accuracy_summary"], 80.)
             self.assertEqual(len(out["words"][0]["phones"]), 4)

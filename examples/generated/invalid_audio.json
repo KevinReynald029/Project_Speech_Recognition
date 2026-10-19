@@ -7,6 +7,6 @@
   "warnings": [],
   "error": {
     "code": "invalid_audio",
-    "message": "Use finite, normalized PCM with shape samples or samples x channels, maximum 60 seconds"
+    "message": "Use finite, normalized mono PCM, maximum 60 seconds; prepare channels upstream"
   }
 }

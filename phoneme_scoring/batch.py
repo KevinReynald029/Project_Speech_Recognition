@@ -7,7 +7,7 @@ import json
 import time
 from pathlib import Path
 
-from .audio import preprocess
+from .audio import validate_audio
 from .backend import create_backend
 from .common import ScoringError, dump_json, normalize_reference, sha256_file
 from .data import read_dataset
@@ -36,7 +36,7 @@ def main(argv=None):
         entries,items=[],[]
         for row in rows:
             try:
-                audio,_,_=preprocess(args.data/row["audio_proc"],None,already_preprocessed=True)
+                audio,_,_=validate_audio(args.data/row["audio_proc"],None)
                 words=normalize_reference(row["words"])
                 file=args.cache/(evidence_key(audio,words)+".json")
                 if file.is_file():

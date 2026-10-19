@@ -4,14 +4,14 @@
   "phoneme_accuracy_summary": null,
   "words": [],
   "preprocessing": {
-    "version": "kevin-16k-rms25-peak1-edge500-v1",
+    "version": "handoff-16k-rms25-peak1-edge500-v1",
     "sample_rate": 16000,
     "duration_seconds": 1.0,
     "original_duration_seconds": 1.0,
     "leading_trim_seconds": 0.0,
     "trailing_trim_seconds": 0.0,
-    "gain_db": -1.9897000556438869,
-    "already_preprocessed": false
+    "gain_db": 0.0,
+    "already_preprocessed": true
   },
   "warnings": [],
   "error": {

@@ -40,5 +40,4 @@ examples/generated/*
 !examples/generated/model_not_ready.json
 !examples/generated/no_speech.json
 !examples/generated/real_success.json
-!examples/generated/success_synthetic.json
 config/kaldi.example.json

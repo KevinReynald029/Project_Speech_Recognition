@@ -6,7 +6,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .audio import preprocess
+from .audio import validate_audio
 from .common import FEATURE_VERSION, METHOD_VERSION, PHONES, PREPROCESS_VERSION, ScoringError, dump_json, load_json, normalize_reference, sha256_file
 from .data import audit_dataset, flatten, read_dataset
 from .evaluation import evaluate, select_threshold, write_predictions, write_report
@@ -47,7 +47,7 @@ def extract_dataset(data, cache, backend, splits=("train", "val", "test")):
             uid = row["utt_id"]
             try:
                 words = normalize_reference(row["words"])
-                audio, _, _ = preprocess(data / row["audio_proc"], None, already_preprocessed=True)
+                audio, _, _ = validate_audio(data / row["audio_proc"], None)
                 evidence = validate_evidence(backend.extract(audio, words), audio, words, backend.extractor_id)
                 file = save_evidence(cache, evidence, audio, words)
                 entries.append({"utt_id": uid, "status": "ok", "file": file.name, "sha256": sha256_file(file)})
@@ -84,7 +84,7 @@ def load_feature_split(data, cache, split, rows, expected_extractor=None):
             raise ValueError("Evidence checksum mismatch")
         words = normalize_reference(row["words"])
         # Reverify actual PCM + reference at training time, not only cache metadata.
-        audio, _, _ = preprocess(data / row["audio_proc"], None, already_preprocessed=True)
+        audio, _, _ = validate_audio(data / row["audio_proc"], None)
         evidence = validate_evidence(load_json(file), audio, words, extractor)
         features.extend(segment_features(s) for s in evidence["segments"])
         good.append(row)

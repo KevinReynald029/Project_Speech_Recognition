@@ -10,7 +10,7 @@ PHONES = tuple("AA AE AH AO AW AY B CH D DH EH ER EY F G HH IH IY JH K L M N NG 
 PHONE_INDEX = {p: i for i, p in enumerate(PHONES)}
 METHOD_VERSION = "gop-hgb-mae-v2"
 FEATURE_VERSION = "lpp39-lpr39-gop-duration-onehot39-v1"
-PREPROCESS_VERSION = "kevin-16k-rms25-peak1-edge500-v1"
+PREPROCESS_VERSION = "handoff-16k-rms25-peak1-edge500-v1"
 FEATURE_DIM = 119
 
 

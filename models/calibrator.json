@@ -1,7 +1,7 @@
 {
   "method_version": "gop-hgb-mae-v2",
   "feature_version": "lpp39-lpr39-gop-duration-onehot39-v1",
-  "preprocess_version": "kevin-16k-rms25-peak1-edge500-v1",
+  "preprocess_version": "handoff-16k-rms25-peak1-edge500-v1",
   "phone_order": [
     "AA",
     "AE",
@@ -43,7 +43,7 @@
     "Z",
     "ZH"
   ],
-  "extractor_id": "kaldi-native-nnet3-881f9b2bb5e49b941737d24174955513ae018cb8e1b2a0469983c82fbb379938",
+  "extractor_id": "kaldi-native-nnet3-0f44ec634e047ca1dabfe0667666c2e149f21f13f1fcf47e3cc84c1ccfba0bfd",
   "practice_threshold_norm": 0.8046660298393438,
   "threshold_locked_on_validation": true,
   "model_type": "histogram_gradient_boosting",
@@ -122913,8 +122913,8 @@
   "selection": "lowest validation MAE among a fixed 24-candidate grid; first candidate breaks exact ties",
   "train_manifest_sha256": "62a523bf5d5617db9b6859cd3eb92a349b9f6f4e5b4248eef1e822614b30ea1f",
   "validation_manifest_sha256": "3a6cc3414d58a1d82427c7bfc600d2c18bc48d4aceae50607494a33ff3326284",
-  "train_evidence_index_sha256": "66147b8475dce0f253118654c5a321d469f531e2984a92236858b5c3639c81bd",
-  "validation_evidence_index_sha256": "1eb52e44abbd548b80e96296f8decb977675e8dd2417ab627c435b3acf6de889",
+  "train_evidence_index_sha256": "522053b55d4a1b877ff0ab37184a3c43f9dc1c5b57a7c3798a4ba92ec097a6ec",
+  "validation_evidence_index_sha256": "0cb31356eefc781f8580a4a2e62a7fa868a0c64142512714b8270991103e1395",
   "train_phone_count": 39723,
   "validation_phone_count": 7353,
   "train_mean_norm": 0.924688467638396,

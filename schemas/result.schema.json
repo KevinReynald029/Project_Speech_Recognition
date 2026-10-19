@@ -251,7 +251,7 @@
       ],
       "properties": {
         "version": {
-          "const": "kevin-16k-rms25-peak1-edge500-v1"
+          "const": "handoff-16k-rms25-peak1-edge500-v1"
         },
         "sample_rate": {
           "const": 16000

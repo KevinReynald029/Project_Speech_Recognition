@@ -10,7 +10,6 @@ from .backend import create_backend
 from .data import audit_dataset, read_dataset
 from .evidence import CachedBackend
 from .experiments import baseline_experiment, extract_dataset, train_experiment
-from .kaldi import KaldiBackend
 from .boosting import load_calibrator
 from .service import PronunciationScorer, failure
 
@@ -38,7 +37,6 @@ def main(argv=None):
     backend = p.add_mutually_exclusive_group(required=True)
     backend.add_argument("--kaldi-config", type=Path)
     backend.add_argument("--cache", type=Path)
-    p.add_argument("--already-preprocessed", action="store_true", help="Only for Kevin's processed dataset WAVs")
     p.add_argument("--output", type=Path)
     args = parser.parse_args(argv)
     try:
@@ -56,7 +54,7 @@ def main(argv=None):
                 reference = load_json(args.reference)["reference_words"]
                 model = load_calibrator(args.model)
                 backend = create_backend(args.kaldi_config) if args.kaldi_config else CachedBackend(args.cache, model.extractor_id)
-                result = PronunciationScorer(backend, model).score_pronunciation(args.audio, None, reference, already_preprocessed=args.already_preprocessed)
+                result = PronunciationScorer(backend, model).score_pronunciation(args.audio, None, reference)
             except ScoringError as error:
                 result = failure(error.code, str(error))
             except (FileNotFoundError, ValueError, KeyError, TypeError) as error:

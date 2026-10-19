@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import numpy as np
 
-from .audio import preprocess
+from .audio import validate_audio
 from .common import METHOD_VERSION, ScoringError, normalize_reference
 from .evidence import segment_features, validate_evidence
 
@@ -16,11 +16,11 @@ class PronunciationScorer:
         self.backend = backend
         self.calibrator = calibrator
 
-    def score_pronunciation(self, audio, sample_rate, reference_words, *, already_preprocessed=False):
+    def score_pronunciation(self, audio, sample_rate, reference_words):
         metadata, warnings = None, []
         try:
             words = normalize_reference(reference_words)
-            x, metadata, warnings = preprocess(audio, sample_rate, already_preprocessed=already_preprocessed)
+            x, metadata, warnings = validate_audio(audio, sample_rate)
             if self.calibrator is None or self.backend is None:
                 raise ScoringError("model_not_ready", "Configure a real acoustic backend and a fitted GOP calibrator")
             if self.backend.extractor_id != self.calibrator.extractor_id:
@@ -45,7 +45,7 @@ _default = None
 
 
 def configure_default(scorer):
-    """Configure once at server startup. Prefer passing an instance to handlers."""
+    """Set the default scorer for the convenience function."""
     if not isinstance(scorer, PronunciationScorer):
         raise TypeError("Expected PronunciationScorer")
     global _default

@@ -1,7 +1,7 @@
 {
   "kind": "gop_hgb_mae_v2_acoustic_experiment",
   "status_note": "Model baru memakai fitur GOP dan gradient boosting. Kandidat dan ambang dipilih dari train/validation. Test yang sama sudah pernah dibaca pada eksperimen v1, jadi hasil ini adalah perbandingan ulang pada benchmark yang sama, bukan pengujian independen baru. Coverage dan baseline dihitung pada rekaman yang sama.",
-  "model_sha256": "69434344666e59186b6115ab22b0af81d80fb04f1fc47e6a19f3d51ad1034177",
+  "model_sha256": "d0b9df9bbc22ff1767b21a00ab5b1893bf43baad08aee48a450c78e568f1b5ab",
   "data_audit": {
     "speaker_disjoint": true,
     "splits_csv_matches_manifests": true,

@@ -7,6 +7,6 @@
   "warnings": [],
   "error": {
     "code": "no_speech",
-    "message": "No usable signal energy after DC removal"
+    "message": "No usable signal energy"
   }
 }
