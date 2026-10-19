@@ -1,4 +1,3 @@
-"""Validate prepared scoring audio without resampling, trimming, or gain changes."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -10,7 +9,6 @@ from .common import PREPROCESS_VERSION, ScoringError, pcm16
 
 
 def validate_audio(audio, sample_rate=None):
-    """Accept prepared mono 16 kHz PCM; preserve its timeline and amplitude."""
     try:
         if isinstance(audio, (str, Path)):
             info = sf.info(str(audio))
@@ -39,10 +37,9 @@ def validate_audio(audio, sample_rate=None):
     except (ValueError, TypeError, OSError, RuntimeError, OverflowError) as error:
         raise ScoringError("invalid_audio", str(error)) from error
 
-    # Energy validation only: DC and near-silence cannot produce a score.
     if np.std(x) < 10 ** (-65 / 20):
         raise ScoringError("no_speech", "No usable signal energy")
-    # Match the PCM16 representation consumed by the acoustic extractor.
+    # PCM16 harus sama dengan sampel yang dibaca Kaldi.
     x = pcm16(x).astype(float) / 32768
     duration = len(x) / 16000
     return x, {

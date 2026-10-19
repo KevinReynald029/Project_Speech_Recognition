@@ -74,7 +74,6 @@ def audit_dataset(root, datasets):
 
 
 def dataset_directory(project):
-    """Find the local extracted handoff or the metadata already in the Git repo."""
     project = Path(project).resolve()
     for directory in (project / "data/handoff", project / "handoff"):
         if all((directory / f"manifest_{split}.jsonl").is_file() for split in ("train", "val", "test")):

@@ -1,4 +1,3 @@
-"""Validated acoustic evidence. Labels are deliberately excluded from this schema."""
 from __future__ import annotations
 
 import hashlib
@@ -51,7 +50,7 @@ def segment_features(segment):
     k = PHONE_INDEX[segment["phone"]]
     identity = np.zeros(39)
     identity[k] = 1
-    # 39 LPP, 39 LPR (target minus each competitor), GOP, log duration, 39 one-hot.
+    # 39 LPP + 39 LPR + GOP + log durasi + 39 one-hot.
     return np.r_[lpp, lpp[k] - lpp, lpp[k] - lpp.max(), np.log(segment["end_seconds"] - segment["start_seconds"]), identity]
 
 

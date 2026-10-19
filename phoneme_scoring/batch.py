@@ -1,4 +1,3 @@
-"""Resumable real-acoustic extraction with bounded batch/model initialization."""
 from __future__ import annotations
 
 import argparse
@@ -53,7 +52,6 @@ def main(argv=None):
             try:
                 values=backend.extract_many(items)
             except ScoringError:
-                # A failed batch must not discard successfully alignable peers.
                 values={}
                 for uid,audio,words in items:
                     try:

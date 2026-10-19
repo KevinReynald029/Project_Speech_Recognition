@@ -1,8 +1,4 @@
-"""Workspace-local Windows Kaldi CPU + public non-chain LibriSpeech TDNN.
-
-Python 3.14 has built-in Zstandard. Earlier Python needs `pip install zstandard`.
-No administrator access, WSL, conda registration, or package hooks are required.
-"""
+"""Siapkan Kaldi CPU dan model TDNN di folder runtime."""
 from __future__ import annotations
 
 import argparse

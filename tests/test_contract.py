@@ -1,4 +1,3 @@
-"""Check public scoring responses directly, without saved JSON fixtures."""
 from __future__ import annotations
 
 import copy

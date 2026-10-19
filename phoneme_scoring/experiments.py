@@ -83,7 +83,7 @@ def load_feature_split(data, cache, split, rows, expected_extractor=None):
         if sha256_file(file) != entry["sha256"]:
             raise ValueError("Evidence checksum mismatch")
         words = normalize_reference(row["words"])
-        # Reverify actual PCM + reference at training time, not only cache metadata.
+        # Cocokkan cache dengan PCM dan referensi aslinya.
         audio, _, _ = validate_audio(data / row["audio_proc"], None)
         evidence = validate_evidence(load_json(file), audio, words, extractor)
         features.extend(segment_features(s) for s in evidence["segments"])
@@ -107,9 +107,9 @@ def train_experiment(data, cache, output, model_path=None, legacy_model=None):
     artifact.update({"practice_threshold_norm": threshold, "trained_on": "train_only", "selection": "lowest validation MAE among a fixed 24-candidate grid; first candidate breaks exact ties", "train_manifest_sha256": sha256_file(data / "manifest_train.jsonl"), "validation_manifest_sha256": sha256_file(data / "manifest_val.jsonl"), "train_evidence_index_sha256": sha256_file(cache / "index_train.json"), "validation_evidence_index_sha256": sha256_file(cache / "index_val.json"), "train_phone_count": len(train), "validation_phone_count": len(val), "train_mean_norm": float(y_train.mean()), "baseline_mean_norm_all_train": float(np.mean([r["target_raw"]/2 for r in flatten(datasets["train"])])), "warning": "This artifact estimates phoneme accuracy, not holistic pronunciation/fluency/prosody."})
     calibrator = BoostedCalibrator(artifact)
     model_path = Path(model_path) if model_path else output / "calibrator.json"
-    # Model + decision threshold are frozen before test evidence is loaded.
+    # Simpan model dan ambang sebelum membuka fitur test.
     calibrator.save(model_path)
-    # Training predictions are explicitly in-sample diagnostics, not a benchmark.
+    # Prediksi train cuma buat melihat hasil fitting.
     write_predictions(output / "predictions_train_gop_calibrated.csv", train, calibrator.predict(x_train), threshold)
     x_test, test, _, test_coverage = load_feature_split(data, cache, "test", datasets["test"], extractor)
     predictions_test = calibrator.predict(x_test)

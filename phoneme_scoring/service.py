@@ -45,7 +45,6 @@ _default = None
 
 
 def configure_default(scorer):
-    """Set the default scorer for the convenience function."""
     if not isinstance(scorer, PronunciationScorer):
         raise TypeError("Expected PronunciationScorer")
     global _default

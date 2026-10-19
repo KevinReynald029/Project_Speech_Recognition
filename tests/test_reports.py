@@ -1,4 +1,3 @@
-"""Regression checks for the published experiment, optional during notebook use."""
 from pathlib import Path
 import unittest
 

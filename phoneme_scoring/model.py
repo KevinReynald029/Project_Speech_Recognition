@@ -1,4 +1,3 @@
-"""Portable Ridge artifact: numbers in JSON, never untrusted pickle/joblib."""
 from __future__ import annotations
 
 import numpy as np
@@ -15,7 +14,7 @@ def fit_ridge(x, y, alpha=10.0):
     mean, scale = x.mean(axis=0), x.std(axis=0)
     scale[scale < 1e-8] = 1
     z = (x - mean) / scale
-    # Train-only score-bin frequencies. Square-root balancing with cap 5.
+    # Bobot awal = sqrt(N / jumlah label per bin), dibatasi 5.
     bins = np.digitize(y, [.25, .75])
     count = np.bincount(bins, minlength=3)
     bin_weights = np.minimum(5, np.sqrt(len(y) / np.maximum(count, 1)))

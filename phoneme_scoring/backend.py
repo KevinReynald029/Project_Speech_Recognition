@@ -4,7 +4,7 @@ from .common import ScoringError, load_json
 
 
 def create_backend(config):
-    """Resolve shared config paths against its project root, not the caller cwd."""
+    """Path relatif dihitung dari folder proyek."""
     if isinstance(config, (str, Path)):
         file = Path(config).resolve()
         values = dict(load_json(file))

@@ -59,7 +59,7 @@ def reference_hash(words):
 
 
 def audio_hash(audio):
-    # Canonical little-endian PCM16, same quantization as soundfile PCM_16.
+    # Hash pakai PCM16 little-endian, sama seperti input Kaldi.
     return hashlib.sha256(pcm16(audio).tobytes()).hexdigest()
 
 

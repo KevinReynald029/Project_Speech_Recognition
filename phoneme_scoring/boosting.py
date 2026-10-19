@@ -1,4 +1,3 @@
-"""MAE-oriented GOP calibration, exported as numeric trees instead of pickle."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -8,7 +7,7 @@ from .common import FEATURE_DIM, FEATURE_VERSION, METHOD_VERSION, PHONES, PREPRO
 
 
 def export_histogram_model(model, *, shrink_to_median=0., train_median=1.):
-    """Export fitted numeric HGB trees; leaf values already include learning rate."""
+    """Nilai leaf dari scikit-learn sudah memuat learning rate."""
     trees = []
     for stage in model._predictors:
         if len(stage) != 1:
@@ -90,7 +89,7 @@ def load_calibrator(artifact):
 
 
 def fit_candidates(x_train, y_train, x_val, y_val, metadata):
-    """Fixed 24-candidate grid. Test data is not accepted by this function."""
+    """24 kandidat, dipilih lewat MAE validation."""
     import sklearn
     from sklearn.ensemble import HistGradientBoostingRegressor
     from threadpoolctl import threadpool_limits

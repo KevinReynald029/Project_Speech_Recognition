@@ -1,4 +1,4 @@
-"""Synthetic acoustic fixtures exercise wiring only, never speech performance."""
+"""Tes alur dengan audio sintetis."""
 from __future__ import annotations
 
 import csv
@@ -64,8 +64,7 @@ class PipelineTests(unittest.TestCase):
                 report = train_experiment(data, cache, root/"experiment1")
                 self.assertEqual(report["coverage"]["test"]["utterance_coverage"], 1.)
                 before = sha256_file(root/"experiment1"/"calibrator.json")
-                # Change only held-out labels. The fitted coefficients/threshold
-                # must remain byte-identical; evaluation scores may change.
+                # Ubah label test; model dan ambang harus tetap sama.
                 file = data/"manifest_test.jsonl"
                 rows = [json.loads(line) for line in file.read_text().splitlines()]
                 for r in rows:

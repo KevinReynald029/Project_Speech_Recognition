@@ -19,10 +19,9 @@ def correlation(y, p, method="pearson"):
 
 
 def select_threshold(target_norm, predictions):
-    """Max validation F1, then precision, then fewer flags. Strict pred < t.
+    """Pilih F1 tertinggi; kalau seri, precision tertinggi lalu paling sedikit flag.
 
-    Groups ties before measuring; includes flag-none and flag-all operating points.
-    Threshold may be nextafter(1, +inf) to express flag-all for clipped scores.
+    Skor yang sama diproses satu grup. nextafter menjaga aturan prediksi < ambang.
     """
     y, p = np.asarray(target_norm) < .25, np.asarray(predictions, float)
     if not len(y) or not y.any():

@@ -1,4 +1,4 @@
-"""Publication-style held-out error-detection diagnostics from actual CSVs."""
+"""Grafik precision-recall dan confusion matrix dari CSV test."""
 import argparse
 import csv
 import json
