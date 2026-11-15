@@ -1,0 +1,63 @@
+=== IMPLEMENTASI ASR LOKAL ===
+Bertunuan untuk membangun sistem Automatic Speech Recognition (ASR) yang dapat mengenali ucapan bahasa Inggris menggunakan model pretrained yang dijalankan secara lokal. Implementasi ini digunakan sebagai komponen pengenalan suara pada aplikasi latihan pengucapan bahasa Inggris.
+
+=== MODEL DAN KONFIGURASI ===
+ASR engine       : Vosk  
+Model            : vosk-model-small-en-us-0.15  
+Bahasa           : English (US)  
+Sample rate      : 16.000 Hz  
+Audio channel    : Mono  
+Audio format     : PCM 16-bit  
+
+Lokasi model: models/asr/vosk-model-small-en-us-0.15/
+Model dimuat satu kali melalui class `LocalASR` agar tidak perlu melakukan loading ulang setiap kali proses transkripsi dilakukan.
+
+=== IMPLEMENTASI ===
+File implementasi:
+- asr/recognizer.py
+- asr/streaming.py
+
+1. Transkripsi file audio
+Fungsi `transcribe_file()` digunakan untuk membaca file WAV, memvalidasi format audio, dan memproses audio dalam beberapa chunk hingga menghasilkan transkripsi akhir.
+
+2. Transkripsi array audio
+Fungsi `transcribe_array()` menerima audio berbentuk array, mengonversinya menjadi PCM 16-bit, kemudian memprosesnya menggunakan Vosk.
+
+3. Streaming ASR
+Class `StreamingASRSession` digunakan untuk memproses audio secara bertahap.
+
+Fungsi:
+- `process_chunk()` : menerima potongan audio dalam bentuk bytes PCM 16-bit dan menghasilkan partial transcript atau final segment.
+- `finish()` : menyelesaikan sesi dan menghasilkan transkripsi akhir.
+
+=== HASIL PENGUJIAN ===
+File pengujian: examples/real_sample.wav
+
+Hasil:
+- Transcript       : we call it bill
+- Ground truth     : WE CALL IT BEAR
+- Durasi audio     : 2.58 detik
+- Processing time  : sekitar 1.604 detik
+- RTF              : sekitar 0.622
+- Kesalahan        : 1 substitution (BEAR menjadi BILL)
+
+=== PENGUJIAN STREAMING ===
+Pengujian dilakukan dengan membagi file WAV menjadi beberapa chunk untuk mensimulasikan proses streaming.
+
+Contoh partial transcript:
+- we
+- we call it
+- we call it bill
+
+Final transcript:
+- we call it bill
+
+=== CATATAN INTEGRASI ===
+- `LocalASR` dimuat satu kali ketika backend dijalankan.
+- Setiap sesi WebSocket menggunakan instance `StreamingASRSession` tersendiri.
+- `process_chunk()` menerima bytes audio PCM 16-bit, mono, 16 kHz.
+- `finish()` dipanggil ketika sesi rekaman selesai.
+- Jika audio dari browser menggunakan format WebM/Opus, backend perlu melakukan decoding dan konversi ke PCM 16-bit mono 16 kHz sebelum diproses oleh streaming ASR.
+
+=== BATASAN ===
+Pengujian streaming yang dilakukan masih berupa simulasi menggunakan potongan file WAV. Pengujian ini belum mencakup integrasi mikrofon browser secara end-to-end. Proses decoding audio browser dan integrasi WebSocket perlu diuji bersama bagian backend dan frontend.
