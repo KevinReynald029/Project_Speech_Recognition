@@ -1,0 +1,48 @@
+=== ANALISIS KESALAHAN TRANSKRIPSI ASR ===
+Untuk menganalisis jenis kesalahan yang dihasilkan model ASR pada validation set untuk mengetahui pola kesalahan transkripsi yang paling sering terjadi.
+
+=== METODE ===
+Analisis dilakukan dengan membandingkan hasil transkripsi model terhadap teks referensi.
+
+Kesalahan dikelompokkan menjadi:
+- Hit       : Kata hasil prediksi sesuai dengan kata referensi.
+- Substitution : Kata hasil prediksi berbeda dari kata referensi.
+- Deletion  : Kata pada referensi tidak muncul pada hasil prediksi.
+- Insertion : Kata tambahan muncul pada hasil prediksi.
+
+Script: asr/analyze_error.py
+
+=== HASIL ANALISIS ===
+Jumlah hit          : 1542  
+Jumlah substitution : 932  
+Jumlah deletion     : 30  
+Jumlah insertion    : 308  
+Total error         : 1270  
+
+=== DISTRIBUSI JENIS KESALAHAN ===
+Substitution : sekitar 73.4%  
+Insertion    : sekitar 24.3%  
+Deletion     : sekitar 2.4%  
+
+=== SUBSTITUTION YANG PALING SERING MUNCUL ===
+Referensi -> Prediksi | Jumlah
+- the -> a       : 9
+- the -> that    : 5
+- you -> your    : 5
+- this -> these  : 5
+- but -> the     : 4
+- that -> the    : 4
+- up -> app      : 3
+- see -> say     : 3
+
+=== PEMBAHASAN ===
+- Jenis kesalahan yang paling banyak ditemukan adalah substitution, yaitu ketika model menghasilkan kata yang berbeda dari kata pada referensi.
+- Beberapa contoh menunjukkan kesalahan pada kata-kata pendek, seperti "the", "you", "this", dan "that". Selain itu, terdapat beberapa kata yang memiliki kemiripan bunyi, seperti "see" yang dikenali sebagai "say".
+- Insertion juga ditemukan dalam jumlah yang lebih tinggi dibandingkan deletion. Hal ini menunjukkan bahwa model terkadang menghasilkan kata tambahan yang tidak terdapat pada teks referensi.
+- Hasil ini merupakan pola kesalahan yang ditemukan pada data evaluasi. Penyebab akustik atau fonetik dari setiap kesalahan belum dapat dipastikan tanpa pemeriksaan audio pada utterance terkait.
+
+=== KESIMPULAN ===
+Substitution merupakan jenis kesalahan paling dominan pada hasil evaluasi, diikuti insertion dan deletion. Hasil analisis ini dapat digunakan sebagai dasar untuk mengetahui kelemahan model ASR dan evaluasi lebih lanjut.
+
+=== FILE ===
+Script: asr/analyze_error.py

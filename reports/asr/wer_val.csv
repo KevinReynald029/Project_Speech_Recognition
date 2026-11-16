@@ -1,0 +1,401 @@
+audio,reference,prediction,wer,duration_seconds,processing_seconds,rtf
+wav16k/000260001.wav,layla love brown,lila laugh wrong,1.0,2.382,1.4232401000335813,0.5974979429192196
+wav16k/000260011.wav,andy can see the hen,nd can see the hen,0.2,3.181,1.5840585000114515,0.4979750078627638
+wav16k/000260015.wav,john is going to see cow,jong is going to see cow,0.16666666666666666,3.22,1.5950224999105558,0.4953486024566943
+wav16k/000260032.wav,one one zero eight,one one zero eight,0.0,2.93,1.1679184000240639,0.3986069624655508
+wav16k/000260033.wav,three one seven nine,stray one seven i,0.5,2.89,2.0898469999665394,0.7231304498154115
+wav16k/000260039.wav,eight zero six two,eight zero six true,0.25,2.955,2.5405773000093177,0.8597554314752344
+wav16k/000260048.wav,three zero eight seven,three zero eight seven,0.0,2.552,2.3893982000881806,0.9362845611630801
+wav16k/000260050.wav,zero eight three one,zero eight three one,0.0,2.57,2.346567799919285,0.9130614007468035
+wav16k/000260052.wav,six eight six seven,six eight six seven,0.0,3.48,2.4665879999520257,0.7087896551586281
+wav16k/000260069.wav,teddy gives up shooting,take the gifts app shooting,1.0,3.35,2.6485375000629574,0.7906082089740171
+wav16k/000260075.wav,he likes racing,he likes racing,0.0,2.41,2.4951894000405446,1.0353482987720102
+wav16k/000260091.wav,dora likes your red jeans,dora liked sure rad genes,0.8,3.3,3.1189697000663728,0.9451423333534463
+wav16k/000260095.wav,bob loves the new cloth,bob laughs that new clothes,0.6,3.2,2.945767999975942,0.9205524999924819
+wav16k/000260096.wav,john needs new t shirt,john needs new t shirt,0.0,3.39,2.4648617999628186,0.7270978760952267
+wav16k/000260112.wav,then lilly walks to music room,then lily walks to music room,0.16666666666666666,3.88,3.3046679999679327,0.8517185566927662
+wav16k/000260115.wav,then tim walks to them park,and team walks to them park,0.3333333333333333,4.18,3.2019961000187322,0.7660277751240987
+wav16k/000260121.wav,then mandy walks to restroom,then men walks to restaurant,0.4,3.82,3.3012542999349535,0.8642026963180507
+wav16k/000260126.wav,do you want the pea,do you want the p,0.2,2.38,2.1815628999611363,0.9166230672105615
+wav16k/000260133.wav,andy got the mushroom,andy gods a mushroom,0.5,2.65,2.659873899887316,1.0037259999574777
+wav16k/000260166.wav,now for the party,now for the party,0.0,2.56,2.3046764999162406,0.9002642577797815
+wav16k/000560016.wav,mary is going to see monkey,mary is going to say among kane,0.5,4.399,3.7647071999963373,0.8558097749480194
+wav16k/000560017.wav,lucy is going to see horse,rules say is going to say a house,0.8333333333333334,4.501,3.008329699980095,0.6683691846212163
+wav16k/000560026.wav,one four seven one,wow for so long,1.0,2.66,2.8776973000494763,1.081841090244164
+wav16k/000560030.wav,five eight three two,file eight stay to,0.75,3.681,2.5969282999867573,0.7054953273530989
+wav16k/000560033.wav,five one six one,five one six one,0.0,3.231,2.418187899980694,0.7484332714270177
+wav16k/000560038.wav,zero four one,jail for wow,1.0,2.88,2.3218588000163436,0.8062009722278971
+wav16k/000560058.wav,lucy hock song mutton,lucy hulk so martin,0.75,5.103,3.2102920000907034,0.6290989614130322
+wav16k/000560068.wav,by david's toes,by day always toes,0.6666666666666666,4.213,2.81614869995974,0.6684426062092903
+wav16k/000560074.wav,i need new shorts,i needs a new all shot,1.0,4.17,2.540420199977234,0.609213477212766
+wav16k/000560075.wav,jack likes your red cup,jack lacks your read a cop,0.8,3.88,3.1024668000172824,0.799604845365279
+wav16k/000560084.wav,look at dora's clot,look had to ask corrode,1.0,3.77,3.236464499961585,0.8584786472046644
+wav16k/000560086.wav,teddy can see the car,k t can say the car,0.6,4.35,3.1510213000001386,0.7243727126437101
+wav16k/000560088.wav,the new car,so new car,0.3333333333333333,2.36,2.417910399963148,1.0245383050691306
+wav16k/000560116.wav,jim was to be are gold teacher,gm was to be ah gawd to teach her,0.8571428571428571,6.234,3.5371009000809863,0.5673886589799465
+wav16k/000560117.wav,jack was wants to be are gold nervous,jack was wants to be a good norris,0.375,10.717,4.146471799933352,0.3869060184691006
+wav16k/000560134.wav,anybody can bank bank bank,anybody can back back back,0.6,4.728,3.177734400029294,0.6721096446762467
+wav16k/000560154.wav,look here i chuck this,look hair i talk days,0.6,5.46,3.0194258999545127,0.5530084065850756
+wav16k/000560159.wav,by your leave,by your life,0.3333333333333333,2.35,2.2769346999702975,0.9689083829660841
+wav16k/000560162.wav,who can count to three,who can count to three,0.0,4.99,2.957037499989383,0.5925926853686138
+wav16k/000560172.wav,bear got his ball,their got his bar,0.5,5.114,2.854668500018306,0.5582065897571972
+wav16k/000750005.wav,born likes green,one likes screen,0.6666666666666666,2.385,2.753990500001237,1.1547129979040827
+wav16k/000750015.wav,tom is going to see cow,paul years going to see call,0.5,2.9850625,2.6746045000618324,0.8959961475050631
+wav16k/000750020.wav,singer is coming from australian,soon i use a coming from australia,1.0,3.791,3.3076965999789536,0.8725129517222247
+wav16k/000750024.wav,andy loves france,and i'll laugh surfers,1.3333333333333333,2.993,2.7198314999695867,0.9087308720245864
+wav16k/000750026.wav,five five zero six,five five to six,0.25,3.269,2.8489413000643253,0.8715023860704574
+wav16k/000750029.wav,five seven six six,thats so much six six,0.75,3.059,3.340657699969597,1.0920750898887208
+wav16k/000750045.wav,five nine zero four,far from nine to four,0.75,2.415,2.8685482000000775,1.1878046376811915
+wav16k/000750068.wav,mary likes tennis,my legs turn yes,1.3333333333333333,3.157,2.5095958000747487,0.7949305670176587
+wav16k/000750080.wav,do you know the noodles,do you nose on your doors,0.8,2.63,2.652488599997014,1.008550798477952
+wav16k/000750082.wav,and likes hamburger,and and likes him park,1.0,2.78,2.9685994000174105,1.0678415107976298
+wav16k/000750085.wav,john hot some meat,john carter summit,0.75,2.733,2.032348000095226,0.7436326381614438
+wav16k/000750091.wav,mark has a beautiful shorts,not have a beautiful shots,0.6,3.285,2.7320615999633446,0.8316778082080196
+wav16k/000750101.wav,look at john's coat,look either jones cult,0.75,2.355,2.4228056999854743,1.028792229293195
+wav16k/000750106.wav,layla can see the bus,lu le carr season pass,1.0,3.13,3.678935999982059,1.1753789137322872
+wav16k/000750108.wav,the plane is near,so isn't yeah,1.0,2.385,2.6187909999862313,1.0980255765141431
+wav16k/000750123.wav,billy was walking to farm,been there was a looking to farm,0.8,2.927,3.225270300055854,1.1019030748397178
+wav16k/000750128.wav,layla hot the pear,oh how to so killer,1.25,2.8649375,2.5336871999315917,0.8843778267175434
+wav16k/000750134.wav,tina likes eye,the t nine next hi,1.6666666666666667,2.837,1.941267899936065,0.6842678533436958
+wav16k/000750140.wav,mary is not singer,my as a note saying,1.25,2.835,2.925352400052361,1.0318703351154714
+wav16k/000750149.wav,tim lives in most room now,you lose a huge moss room now,0.8333333333333334,4.2550625,3.3303421000018716,0.7826775987431139
+wav16k/001310020.wav,lynda loves australia,kinda laughs as truly are,1.6666666666666667,3.725,2.300014500040561,0.6174535570578688
+wav16k/001310022.wav,andy loves canada,and he lives canada,1.0,3.6149375,2.667349199997261,0.737868690675084
+wav16k/001310023.wav,better lived in china,better and lived in china,0.25,3.225,2.875212399987504,0.8915387286782958
+wav16k/001310061.wav,does mike like the beef,das mike it's like the beef,0.4,3.935,3.2757996999425814,0.8324776874059927
+wav16k/001310062.wav,andy likes meat,and he likes meat,0.6666666666666666,2.945,2.5669235000386834,0.8716208828654274
+wav16k/001310076.wav,please close your new t shirt,please post your new tee shot,0.5,5.075,2.78099260001909,0.5479788374421852
+wav16k/001310078.wav,mike likes your blue jeans,my like your blue jeans,0.4,4.5150625,3.5004777000285685,0.7752888692080272
+wav16k/001310081.wav,billy got the skirt,the only good the skirt,0.75,2.9400625,3.303280599997379,1.1235409451320777
+wav16k/001310096.wav,jim can see the t v room,q test series or tv room,0.8571428571428571,3.505,2.659049400012009,0.7586446219720425
+wav16k/001310122.wav,mary went to the match class,no would choose the much class,0.6666666666666666,4.981,3.45828519994393,0.6942953623657759
+wav16k/001310123.wav,daddy likes the science class at school,dirty like the sounds class at school,0.42857142857142855,4.655,3.153992500039749,0.6775494092459181
+wav16k/001310129.wav,how did you come here,how did you come here,0.0,3.395,2.4536181000294164,0.7227151988304614
+wav16k/001310144.wav,hadi friend,her different,1.0,2.115,2.1699642000021413,1.0259878014194521
+wav16k/001310148.wav,car,ha,1.0,1.615,1.563985800021328,0.9684122600751257
+wav16k/001310152.wav,it is a long journey,it is a long journey,0.0,3.2960625,3.0334171999711543,0.9203154369709781
+wav16k/001310154.wav,then why are you here,then why high heel here,0.4,3.429,2.773761500022374,0.8089126567577645
+wav16k/001310155.wav,he asked,he asked,0.0,2.091,2.1315566999837756,1.0193958393035751
+wav16k/001310162.wav,step up,tape up,0.5,2.185,1.9992664000019431,0.9149960640741158
+wav16k/001310165.wav,i goat up this morning,i could help is this morning,0.6,3.035,2.2447457999223843,0.739619703434064
+wav16k/001310168.wav,come over here,come over here,0.0,2.325,2.233780700014904,0.9607658924795286
+wav16k/005600015.wav,a light rain was falling at the time,a lighter he was there falling itera time,0.625,4.0370625,4.320379700046033,1.070179047276586
+wav16k/005600060.wav,his eyes were rolling around,his eyes so we're rolling around,0.4,3.68,3.2886205000104383,0.8936468750028365
+wav16k/005600065.wav,i go on the field and i play,i go on the feel the under i play,0.375,4.024,3.313328899908811,0.8233918737347939
+wav16k/005600129.wav,can i just fall off the face of the earth,can i just to for ovaries or face it of asia errors,0.7,5.495,4.6681899999966845,0.849534121928423
+wav16k/005600145.wav,what's the matter with us,what's the matter with ass,0.2,2.44,2.323435200029053,0.9522275409955134
+wav16k/005600146.wav,cover of a cover a,cover over cover up,0.6,2.615,2.1423347999807447,0.8192484894763842
+wav16k/005600153.wav,i bill not afraid,i'll be on not afraid,0.75,2.825,2.189803499961272,0.7751516814022201
+wav16k/005600154.wav,i will informed people should not be along to vote,i will leave for the p sued the not be alone to wept,0.8,6.048,4.479895399999805,0.7407234457671635
+wav16k/005600180.wav,more of us are coming,moreover i saw commie,1.0,2.895,2.5484213000163436,0.8802836960332793
+wav16k/005600199.wav,plus they can be fun,plus they can be thought,0.2,3.085,2.4206710999133065,0.7846583792263554
+wav16k/005600205.wav,and thank you for pointing this out to us,and dust and cure for playing t v is the author to us,1.0,5.395,3.9196628999197856,0.7265362187061698
+wav16k/005600212.wav,and it seems to be mostly phones,and the you to seem said to be a must to fast,1.2857142857142858,4.703,3.6102704000659287,0.7676526472604568
+wav16k/005600214.wav,feeling is still the same,the only is still are him,0.8,3.672,3.3227156000211835,0.9048789760406273
+wav16k/005600268.wav,i want a couple of weeks off,i want a couple overwork so,0.42857142857142855,3.758,2.7236839999677613,0.7247695582670999
+wav16k/005600294.wav,you a fan of them,your father,1.0,2.245,2.145888200029731,0.9558522049130204
+wav16k/005600296.wav,yes because it is the next game,yes it because the you to use nest her,1.0,3.85,3.6243950000498444,0.9414012987142453
+wav16k/005600298.wav,so why are you breath,so where are you breeze,0.4,3.453,2.3161058999830857,0.6707517810550495
+wav16k/005600318.wav,he was a man and so he should know all,he was my under so he is food than know war,0.7,4.545,3.2555797999957576,0.7162991859176585
+wav16k/005600365.wav,she was standing in a boat,she was standing in a boat,0.0,3.364,3.622392400051467,1.076811058279271
+wav16k/005600370.wav,below to the left was the river,the launcher their love for her was in a river,1.1428571428571428,4.605,4.011124100070447,0.871036720970781
+wav16k/005750059.wav,it's a book that will entertain as it informs,it's a because that's her will turn to a little you forms,1.0,4.49,4.93928930000402,1.1000644320721649
+wav16k/005750067.wav,it's easy to feel enthusiastic,it's easy to feel issues as cheek,0.6,3.775,2.738866399973631,0.7255275231718228
+wav16k/005750089.wav,the move is a part of plan to increase profits,the movies are part of plan to increase profits,0.3,4.68,3.4351840999443084,0.7340136965692967
+wav16k/005750099.wav,reports are expected by the end of the year,reports i expected the the and dollars a year,0.5555555555555556,4.475,4.268358399975114,0.9538231061396902
+wav16k/005750150.wav,love to see that all the trees are down,now to say that all the trees at down,0.3333333333333333,3.455,3.3591942999046296,0.9722704196540173
+wav16k/005750168.wav,possible for me to meet you,person ball for me too me too,0.8333333333333334,2.885,2.911024900036864,1.0090207625777692
+wav16k/005750178.wav,what's are you going as,what are you going as,0.2,2.655,2.093395300093107,0.7884728060614339
+wav16k/005750179.wav,beautiful day to be a fan,beauty put them to be a fan,0.5,3.0549375,2.909204699913971,0.9522959798404947
+wav16k/005750237.wav,listening to wanted on the radio,listening to want to the on there we go,1.0,3.145,3.2614929999690503,1.0370406995132115
+wav16k/005750249.wav,time for me to make it pretty,time for me to make a pretty,0.14285714285714285,3.375,3.292811800027266,0.9756479407488196
+wav16k/005750268.wav,all about the china cup for me,oh bother as china cup for me,0.42857142857142855,3.15,3.423339599976316,1.0867744761829574
+wav16k/005750270.wav,right now is the time to make that move,right now uses a time to make that move,0.2222222222222222,3.905,3.827816199976951,0.9802346222732269
+wav16k/005750290.wav,do you believe in dreams,do you believe we insurance,0.4,2.45,2.5136030999710783,1.025960448967787
+wav16k/005750297.wav,i will continue to look up to here,i will continue to look out for to here,0.25,3.575,3.234934199950658,0.9048766992868973
+wav16k/005750298.wav,hope is in the tour,hope use mean that tour,0.6,2.755,3.130268899956718,1.1362137567900974
+wav16k/005750300.wav,the beast package is back,the best packages back,0.6,3.235,2.826774900080636,0.8738098609213714
+wav16k/005750303.wav,it is a great resource,either he's a great resource,0.4,2.97,2.9100720999995247,0.9798222558920958
+wav16k/005750321.wav,they pass into the street,they pass lean to the street,0.4,2.655,2.2289964000228792,0.8395466666752841
+wav16k/005750330.wav,the answer to that was also beginning to come,the answer to that was also beginning to come,0.0,4.275,3.202527599991299,0.7491292631558594
+wav16k/005750347.wav,it would be impossible in this little flat,either would have been parser boy you this need or frat,1.125,3.875,4.212133999913931,1.0870023225584338
+wav16k/010290003.wav,but there had better not be,but they had better not be,0.16666666666666666,2.899,2.2930804999778047,0.7909901690161452
+wav16k/010290066.wav,he left behind a wife and a young son,he left behind a wife and a young son,0.0,3.63,3.492972599924542,0.9622514049378904
+wav16k/010290094.wav,it's really a good one,it's really a good one,0.0,2.2,2.1877921000123024,0.9944509545510465
+wav16k/010290096.wav,a black truck stops in front of you,a black truck stops in front of you,0.0,3.44,3.026265799999237,0.8797284302323364
+wav16k/010290123.wav,thank you for making me feel so alive,thank you for making me feel you say alive,0.25,3.51,3.124878600006923,0.8902788034207758
+wav16k/010290152.wav,this election is going to be a turning point,this election is going to be a turning point,0.0,3.834,3.4356591999530792,0.8961030777133748
+wav16k/010290179.wav,this one is for the army,this one is for the army,0.0,2.68,2.37003500002902,0.8843414179212761
+wav16k/010290189.wav,you think that this is okay,if think that this is okay,0.16666666666666666,2.953,2.6408605000469834,0.8942974940897337
+wav16k/010290229.wav,to swim or not to swim,to swing or not to swing,0.3333333333333333,2.852,2.765004599932581,0.969496704043682
+wav16k/010290236.wav,but it's not the light time is it,the is not the light time is it,0.25,3.59,2.7999411000637338,0.7799278830261097
+wav16k/010290252.wav,rough star to the year but it will get better,rough start to the year but he will get better,0.2,3.25,2.932410099892877,0.9022800307362698
+wav16k/010290260.wav,this is very big deal,these is very big deal,0.2,2.37,2.3710244999965653,1.0004322784795634
+wav16k/010290276.wav,do you know why they closed,you know why they closed,0.16666666666666666,2.99,2.170685400022194,0.7259817391378574
+wav16k/010290287.wav,why is the best place to work,why is the best place to work,0.0,3.0,2.6539343999465927,0.8846447999821976
+wav16k/010290294.wav,move on to the next fish,move onto to the next fish,0.16666666666666666,2.79,2.428373000002466,0.870384587814504
+wav16k/010290320.wav,i must make the attack from the other side,unless made the attack from the other side,0.3333333333333333,3.705,2.7222495999885723,0.7347502294166187
+wav16k/010290330.wav,but you must wait till he comes back,the a must wait to he comes back,0.375,3.37,2.4882236000848934,0.7383452819243007
+wav16k/010290341.wav,nothing comes from a single cause but from many,nothing comes from a single cause back from many,0.1111111111111111,3.7949375,3.2021498000249267,0.8437951349725593
+wav16k/010290361.wav,but the work was very hard and hot,the the work was very hot and hot,0.25,3.14,3.2113445999566466,1.022721210177276
+wav16k/010290362.wav,that's the way it is my son,that's the way it is my son,0.0,2.83,2.560611499939114,0.9048097172929731
+wav16k/014190006.wav,layla can draw the monkey,lila can draw the monkey,0.2,3.28,3.4021862000226974,1.0372518902508225
+wav16k/014190025.wav,lucy is a friend from canada,los c s of random from canada,0.8333333333333334,5.594,3.352303999941796,0.5992677869041466
+wav16k/014190027.wav,mandy lives in japan,montes lives in the upper,0.75,3.81,3.2064317000331357,0.8415831233682771
+wav16k/014190030.wav,six two three three,six to say say,0.75,2.975,2.3579514999873936,0.7925887394915608
+wav16k/014190055.wav,neil is good at basketball,nyah yes good at basketball,0.4,3.565,2.7179727000184357,0.7624046844371489
+wav16k/014190059.wav,mike ate a little rice,mike aids or letter rice,0.6,3.551,2.95401290000882,0.831881976910397
+wav16k/014190060.wav,neil likes cake,ny lacks cake,0.6666666666666666,3.071,2.308779599959962,0.7518005861152595
+wav16k/014190062.wav,neil likes sausage,ny lexus rc key,1.3333333333333333,2.97,2.6225675001041964,0.8830193603044432
+wav16k/014190064.wav,henny smells fresh bread,ten years massive fashion of bread,1.25,4.039,3.1449038999853656,0.7786342906623832
+wav16k/014190071.wav,by my mouth,by my moss,0.3333333333333333,2.16,2.016521399957128,0.9335747222023739
+wav16k/014190073.wav,let's draw jayme's toe,let's go on a means the top,1.5,3.86,3.3624077000422403,0.8710900777311503
+wav16k/014190081.wav,let's draw neil's arm,that's junius ah,1.0,3.11,2.032540400046855,0.6535499678607252
+wav16k/014190088.wav,sandy has a beautiful shorts,sandy has a for shots,0.4,3.47,2.668528600013815,0.769028414989572
+wav16k/014190095.wav,betty needs new skirt,b t needs the new squirt,1.0,3.48,2.8531637999694794,0.8198746551636436
+wav16k/014190098.wav,jayme got on the underground,jim mean got on the on the ground,1.0,3.38,3.166781199979596,0.9369175147868627
+wav16k/014190107.wav,so he went on to teacher's office,so you want on to teach us office,0.5714285714285714,4.33,3.3289001000812277,0.7687990993259186
+wav16k/014190108.wav,the layla walked to bus stop,layla old wachter too fast stop,0.8333333333333334,4.61,2.7837170000420883,0.6038431670373293
+wav16k/014190114.wav,henny can see the kitchen,i mean can see that catching,0.8,3.04,2.4729651999659836,0.8134753947256524
+wav16k/014190128.wav,layla loves cool,the law loves cool,0.6666666666666666,2.98,2.449928699992597,0.8221237248297306
+wav16k/014190172.wav,and my name too,and my name to,0.25,2.635,2.6330147000262514,0.9992465654748582
+wav16k/020590022.wav,this war is over existence,these war is over existence,0.2,4.106,2.635985300061293,0.6419837554947133
+wav16k/020590026.wav,lighting a fire is an easy way to get found,lighting a fire is an easy way to get found,0.0,4.924,3.0874376000138,0.6270181965909423
+wav16k/020590047.wav,at least not for now,at least not for now,0.0,3.027,2.2808914999477565,0.7535155269070883
+wav16k/020590077.wav,i was probably feeling sorry for myself more than anything,i was probably feeling sorry for myself more than anything,0.0,4.898,3.313757700030692,0.6765532258127178
+wav16k/020590103.wav,that's a lot more complicated,there's a lot more complicated,0.2,4.307,3.074725400074385,0.7138902716680717
+wav16k/020590121.wav,thanks for the joy of ownership,thanks for the joy of owners sheep,0.3333333333333333,3.805,2.7123141000047326,0.7128289356122819
+wav16k/020590122.wav,walked in the park today,was in the park today,0.2,2.98,2.5228581000119448,0.8465966778563573
+wav16k/020590123.wav,we wish you could be too,we wish you could be too,0.0,3.481,2.725175300030969,0.7828713875412149
+wav16k/020590144.wav,can you put a stop to this madness,k you put us dob today's met nice,0.75,3.655,2.9971708999946713,0.8200193980833574
+wav16k/020590151.wav,no you go to bed,no you go to bat,0.2,3.123,2.547698099981062,0.8157854947105546
+wav16k/020590164.wav,i know how to program,i know how to program,0.0,3.157,2.2937663999618962,0.7265652201336383
+wav16k/020590181.wav,book a party with a difference,both a party with a difference,0.16666666666666666,3.193,2.622443799977191,0.8213103037823961
+wav16k/020590228.wav,gun death at the bottom of the list,gum there's add a bottom of the least,0.625,4.2,2.903868000023067,0.691397142862635
+wav16k/020590265.wav,we are so happy to have helped,we're so happy to have helped,0.2857142857142857,3.634,2.7791849999921396,0.76477297743317
+wav16k/020590274.wav,this was only the start of the trail,these was only his daughter of the trail,0.375,3.958,3.0167951000621542,0.7622018949121158
+wav16k/020590276.wav,today i have so much to be thankful for,today i have so much to be there for four,0.2222222222222222,4.654,3.0810310000088066,0.6620178341230784
+wav16k/020590290.wav,thank you for the points,thank you for the points,0.0,2.482,2.098590499954298,0.8455239725843263
+wav16k/020590322.wav,we were always doing something as it was,we will always doing something as it was,0.125,4.173,2.90138450008817,0.6952754613199545
+wav16k/020590359.wav,drive the car would you,jag the car or you,0.4,2.999,2.42111630004365,0.8073078693043181
+wav16k/020590376.wav,the rebels had come upon his land,the rebels had come upon his lender,0.14285714285714285,4.599,3.192954200087115,0.6942714068465133
+wav16k/020890003.wav,it was something that never happened to us before,it was something that never happened to us before,0.0,4.275,3.3829733000602573,0.7913387836398262
+wav16k/020890037.wav,it's still there for me,it's still there for me,0.0,3.192,2.304594699991867,0.721990820799457
+wav16k/020890112.wav,but those are not my decisions,but those are not my decisions,0.0,3.201,2.7109941000817344,0.8469209934650841
+wav16k/020890134.wav,should be a wake up call,should be a wake up call,0.0,2.891,2.4096735999919474,0.8335086821141292
+wav16k/020890156.wav,what you know about dreams,what in know about dreams,0.2,3.013,2.871562800020911,0.9530576833789947
+wav16k/020890165.wav,as part of the run up to release,as part of a run up to release,0.125,3.205,2.685639400035143,0.8379530109314018
+wav16k/020890206.wav,trust me there is plenty of bread,trust me there is plenty of brent,0.14285714285714285,3.696,3.0345364999957383,0.8210326028126997
+wav16k/020890207.wav,often not so easy to do,often not so easy to do,0.0,3.207,2.713185300002806,0.8460197380738403
+wav16k/020890215.wav,until you sit and listen to it,and do sit and listen to it,0.2857142857142857,3.419,2.7218570000259206,0.7960973969072596
+wav16k/020890219.wav,do you have the glasses,do you have the glasses,0.0,2.885,2.303709900006652,0.7985129636071584
+wav16k/020890259.wav,glad you are having a good time,glad you are having a good time,0.0,3.062,2.495700699975714,0.8150557478692732
+wav16k/020890260.wav,windows open transformers in bed,windows open transformers in bed,0.0,3.499,2.8504725999664515,0.8146535009906978
+wav16k/020890267.wav,best two months of the year,less than two month of the year,0.5,3.251,2.639560000039637,0.8119224854013033
+wav16k/020890274.wav,i thought this would be so easy to draw,i thought this world be so easy to jaw,0.2222222222222222,4.606,2.8908764999359846,0.6276327616013861
+wav16k/020890306.wav,there were two new lives in the house,there were two new lives in the house,0.0,3.522,2.745507000014186,0.7795306643992578
+wav16k/020890313.wav,but he would not let me go,but he would not let me go,0.0,3.247,2.5308605999452993,0.7794458269003078
+wav16k/020890326.wav,prediction is as clear as day is it not,prediction is as clear as day is it not,0.0,5.205,3.2279641999630257,0.6201660326537993
+wav16k/020890340.wav,go and get ready if you want to come,go and get ready if you're one to come,0.2222222222222222,3.327,2.9279705000808463,0.8800632702377055
+wav16k/020890346.wav,what was so special about this song,what was so special about this song,0.0,3.205,2.86860849999357,0.8950416536641405
+wav16k/020890371.wav,i know who they are,i know who they are,0.0,3.048,2.039121099980548,0.6690029855579226
+wav16k/026210005.wav,thank you and god bless you all,thank you and god bless you all,0.0,3.196,177.72037730005104,55.60712681478443
+wav16k/026210047.wav,you try not to think about those kind of things,you try not to think about those kinds of things,0.1,3.785,2.4731409000232816,0.653405786003509
+wav16k/026210096.wav,it's a victory lap for me,it's a victory lap for me,0.0,2.92,1.567815599963069,0.5369231506722839
+wav16k/026210123.wav,just wondering what to do with the cat,just wondering what you do is that cat,0.375,3.3049375,1.7431608999613672,0.5274414115127343
+wav16k/026210132.wav,and what have you learned so far,and the what how you learned so far,0.2857142857142857,3.325,1.4656272999709472,0.44079016540479615
+wav16k/026210135.wav,could not be so proud,could not be so proud,0.0,2.901,1.6840727999806404,0.5805145811722304
+wav16k/026210136.wav,let's take a look at that,let's take a look at that,0.0,2.775,2.035185500048101,0.7334001801975139
+wav16k/026210141.wav,lot more to life than football,lot more to life die football,0.16666666666666666,3.015,2.790480100084096,0.9255323715038462
+wav16k/026210157.wav,hi angel you never know what will happen,he and your you never know what were hamburg,0.625,3.555,2.020733700017445,0.5684201687812784
+wav16k/026210177.wav,wait you can see that can you,which you can see that can you,0.14285714285714285,3.355,1.7483399999327958,0.5211147540783296
+wav16k/026210185.wav,hopelessness is a great sigh,whole place nice is a great sign,0.8,3.349,1.8671706999884918,0.5575308151652707
+wav16k/026210203.wav,it was so great to see everyone,it was so great to see everyone,0.0,2.925,2.6877847000723705,0.9189007521614942
+wav16k/026210213.wav,they talk a lot of sense,they took our lot of sense,0.3333333333333333,2.595,2.582011800026521,0.9949949133050177
+wav16k/026210220.wav,it's not as sweet when you have to share,it's not as tweets were you how to sure,0.4444444444444444,3.554,2.2257554000243545,0.6262676983748887
+wav16k/026210231.wav,a light in the shadow,i light in the shadow,0.2,2.625,1.463745600078255,0.5576173714583829
+wav16k/026210242.wav,hope to see much more of you,hello to see much more of you,0.14285714285714285,3.025,1.8563958999002352,0.6136845950083423
+wav16k/026210262.wav,great first game of the season,wait for a skin of the season,0.6666666666666666,2.925,1.9398082999978215,0.66318232478558
+wav16k/026210287.wav,it used to be called a happy ending,it he used to be called a happy ending,0.125,3.245,1.6677026000106707,0.5139299229616858
+wav16k/026210299.wav,and i get to hear a lot of it,and i get to hear a lot of eight,0.1111111111111111,2.935,1.6710706000449136,0.5693596592998001
+wav16k/026210302.wav,it was a great fun,it was a great fun,0.0,2.085,1.4145832000067458,0.6784571702670243
+wav16k/027990028.wav,he runs he blocks he catches the ball,he wrongs he blocks it catches the ball,0.25,4.14,2.1006994999479502,0.5074153381516788
+wav16k/027990046.wav,we have the early signs,we have that early signs,0.2,2.542,1.5860923000145704,0.6239544846634817
+wav16k/027990056.wav,on sunday none of that counted for anything,i'll sound a number would as county to for anything,1.0,3.58,2.3458186000352725,0.6552565921886236
+wav16k/027990059.wav,people are getting back to work,people are getting back to work,0.0,2.745,1.664521099999547,0.6063829143896345
+wav16k/027990066.wav,it show the weakness of the movements,it showed a weakness of the moment,0.42857142857142855,3.015,1.5771634000120685,0.5231056053108021
+wav16k/027990153.wav,in a world cup gain,in the world cup game,0.4,2.28,1.4211733000120148,0.6233216228122872
+wav16k/027990156.wav,looking forward to seeing what you have to offer,looking forward to seeing what do you have to offer,0.1111111111111111,3.525,1.8585562000516802,0.527249985830264
+wav16k/027990160.wav,i have a new thing on the fridge,i haven't you using own of reach,0.875,2.875,1.5516735999844968,0.5397125565163468
+wav16k/027990162.wav,time to think about something else for a while,trying to think about something else for a while,0.1111111111111111,3.45,1.7957494999282062,0.5205071014284656
+wav16k/027990167.wav,you talked you caught you scored,you talk to you caught you scored,0.3333333333333333,3.28,1.525571299949661,0.46511320120416494
+wav16k/027990201.wav,what to eat if you have no money,what to eat if you have no money,0.0,3.405,1.5296423999825493,0.44923418501690143
+wav16k/027990232.wav,you should keep an eye out for them,you should be keep an eye out for them,0.125,2.905,1.6870657000690699,0.580745507769043
+wav16k/027990242.wav,looking for a good gifts,looking for a good gifts,0.0,2.455,1.410492799943313,0.5745388187141804
+wav16k/027990247.wav,joy can be hard to find sometimes,joy you can be hard to find some ties,0.42857142857142855,3.47,1.5638132999883965,0.45066665705717474
+wav16k/027990264.wav,i will not hesitate to call the police,i will not hesitate to call the police,0.0,3.199,1.6925854000728577,0.5290982807354979
+wav16k/027990309.wav,the house was too big,the house was to be,0.4,2.315,1.2590736000565812,0.5438762851216333
+wav16k/027990328.wav,the top of its head was still open,the top of his had it was the open,0.5,3.275,1.4984243999933824,0.45753416793691065
+wav16k/027990330.wav,the door was opened with difficulty,the door was open that was difficulty,0.5,3.245,1.5614490000298247,0.4811861325207472
+wav16k/027990341.wav,he marked their progress on the chart,he mocked their progress on the chart,0.14285714285714285,3.08,1.3851254000328481,0.4497160389717039
+wav16k/027990358.wav,but perhaps for him it was not too late,but perhaps for hang it was not too late,0.1111111111111111,3.379,1.9459228999912739,0.5758872151498295
+wav16k/029810020.wav,it would be quite a challenge,it will be quite a challenge,0.16666666666666666,2.5649375,1.451547999982722,0.5659194424748057
+wav16k/029810027.wav,it's sort a bit a little bit forward and back,his sword a bit a little bit forward and backed,0.3,4.122,1.6837334000738338,0.4084748665875385
+wav16k/029810135.wav,and thank you for being so strong,as thank you for being so strong,0.14285714285714285,2.74,1.6217874999856576,0.591893248169948
+wav16k/029810139.wav,found this in the collection,some this movie collection,0.6,2.91,1.8577023000689223,0.6383856701267774
+wav16k/029810147.wav,he is in the hospital,he's in the hospital,0.4,2.34,1.47214129997883,0.6291202136661667
+wav16k/029810158.wav,proof we have a good time,proof we have a good time,0.0,2.465,1.3891607999103144,0.5635540770427239
+wav16k/029810200.wav,via what do you think,why what do you think,0.2,2.805,1.360327799920924,0.4849653475653918
+wav16k/029810204.wav,it's all about the chocolate,is all about a truck late,0.8,2.72,1.2432809999445453,0.4570886029207887
+wav16k/029810216.wav,i would like to know you,i would love to know you,0.16666666666666666,2.3,1.3783472999930382,0.5992814347795818
+wav16k/029810221.wav,weight is the enemy of performance,wait is it an array of performers,0.8333333333333334,3.01,1.227372599998489,0.4077649833882024
+wav16k/029810234.wav,whatever the difficulty there's a solution,whatever is difficulty there are so solution,0.6666666666666666,3.59,1.6692461000056937,0.4649710584974077
+wav16k/029810235.wav,prayer is a source of strength and spirit,prayer is a source of stress and sprite spirit,0.25,4.45,1.726587799959816,0.3879972584179362
+wav16k/029810243.wav,i know how to do all of them,i know how to do all of them,0.0,3.333,1.246121700038202,0.37387389740120075
+wav16k/029810283.wav,but look at my parents,but look at my parents,0.0,2.43,1.3435859000310302,0.5529160082432223
+wav16k/029810294.wav,text me if you single singe,to me if you're single cinch,0.5,3.905,1.5913783999858424,0.4075232778452862
+wav16k/029810301.wav,hope we get to see more,have we get to see more,0.16666666666666666,2.555,2.6575634999899194,1.040142270054763
+wav16k/029810315.wav,that a hat was not necessary,the had of was not necessary,0.5,2.87,2.614600899978541,0.9110107665430456
+wav16k/029810349.wav,it was all for you that i thought,it was off for you that are sought,0.375,3.795,3.026947900070809,0.7976147299264319
+wav16k/029810350.wav,look boy violence is the resort of the violent,look boy liners is a resort over the violence,0.4444444444444444,4.22,2.136897899908945,0.5063739099310296
+wav16k/029810360.wav,why am i a ghost,why am i a ghost,0.0,2.477,1.4929104000329971,0.6027090835821547
+wav16k/030830001.wav,tell me what you want me to do,tell me a water you want me to do,0.25,3.16,1.6451427999418229,0.5206148101081718
+wav16k/030830004.wav,she knows i would,she lost our,0.75,2.33,1.4032691000029445,0.6022614163102766
+wav16k/030830013.wav,and people were beginning to say its of you,and the people what became you to say is have you,0.6666666666666666,4.915,2.124855099944398,0.4323204679439263
+wav16k/030830021.wav,and how are things going on hair now,and the whole scenes were going on here not,0.75,5.845,2.432589399977587,0.4161829597908618
+wav16k/030830030.wav,we know that well,when not that's what are,1.25,2.37,1.5939124999567866,0.6725369198129901
+wav16k/030830033.wav,i wants work and its is my right,i once walk and that is is my rat,0.625,4.28,1.8654249999672174,0.43584696260916295
+wav16k/030830043.wav,i do not know him,i do not know him,0.0,2.95,1.5690339000429958,0.5318758983196595
+wav16k/030830069.wav,yes i know you love me,yes and know you love me,0.16666666666666666,4.008,1.648601199965924,0.41132764470207683
+wav16k/030830074.wav,how happy you both look,how heavy your boss look,0.6,2.51,1.578160100034438,0.6287490438384216
+wav16k/030830093.wav,she word not say what,so what now to say what,0.8,3.887,1.9225693000480533,0.49461520454027613
+wav16k/030830094.wav,it me all be over,eating meat all be over,0.4,2.58,1.5741819998947904,0.6101480619747249
+wav16k/030830102.wav,she will know what's i want,she will know what i want,0.16666666666666666,2.96,1.7227236999897286,0.5820012499965299
+wav16k/030830116.wav,let us go in to it,let us go in to it,0.0,3.89,1.665386800072156,0.42812000001854905
+wav16k/030830118.wav,then he turned back and looked at her,then head to end of back under lock the as heart,1.125,3.991,2.2210884999949485,0.5565243046842767
+wav16k/030830124.wav,in any case he is sure to love hair best,he and in case a is start to allow her best,0.7,5.35,2.237484100041911,0.4182213271106376
+wav16k/030830129.wav,which do you care to use,which we all care to use,0.3333333333333333,3.144,1.691650899942033,0.538056902017186
+wav16k/030830135.wav,and there we were,and xiao wei well,0.75,2.88,1.699245800031349,0.5900159027886629
+wav16k/030830147.wav,what were you parents,what were your parents,0.25,2.804,1.5708136999746785,0.5602046005615829
+wav16k/030830154.wav,stay with my mother,stay with my mother,0.0,2.11,1.45656640001107,0.6903158293891328
+wav16k/030830169.wav,he will help you,hey will help you,0.25,2.397,1.5126372000668198,0.6310543179252482
+wav16k/034230011.wav,why had he turned,why had he turned,0.0,3.202,1.5596923999255523,0.48709943782809256
+wav16k/034230034.wav,yes that is something,yes that is some seen,0.5,3.18,1.6385870999656618,0.5152789622533527
+wav16k/034230035.wav,this is the first,this is the first,0.0,2.55,1.5219306000508368,0.5968355294317007
+wav16k/034230043.wav,you can put buy tries,you can put by tries,0.2,2.89,1.649353799992241,0.5707106574367615
+wav16k/034230051.wav,he was happy this morning like a boy,he was happy days more knee like a boy,0.375,5.115,2.3106228000251576,0.45173466276151664
+wav16k/034230058.wav,i hand a say which then,i hand see which know,0.5,3.21,1.5587570000207052,0.48559408100333495
+wav16k/034230063.wav,and there were three days like this,and there was three days like these,0.2857142857142857,3.92,1.8470951999770477,0.47119775509618567
+wav16k/034230072.wav,they were like years,the one like ios,0.75,2.79,1.633654800010845,0.5855393548425968
+wav16k/034230079.wav,but he was great,but he was great,0.0,2.765,1.4484990999335423,0.523869475563668
+wav16k/034230081.wav,i guesses you have,i guess is you have,0.5,3.04,1.5697046000277624,0.5163501973775534
+wav16k/034230083.wav,there use to be,the are used to be,0.75,2.7950625,1.5130659999558702,0.5413353010731854
+wav16k/034230085.wav,no one love me now,no one love me now,0.0,3.005,1.4063062999630347,0.46798878534543586
+wav16k/034230108.wav,to go on with the sorry,choco all weeks the sorry,0.6666666666666666,3.33,1.7340761000523344,0.5207435735892896
+wav16k/034230112.wav,give it here i tell you,give his vr i tell you,0.3333333333333333,3.36,1.801498599932529,0.536160297598967
+wav16k/034230115.wav,he had he arm round her,he had he i'm drunk your,0.5,3.745,1.6795612000860274,0.4484809613046802
+wav16k/034230123.wav,and here am i wait to for,and here i am i which to for,0.2857142857142857,4.38,1.6618105999659747,0.3794088127776198
+wav16k/034230141.wav,but he she look up and is not afraid,but he he luke app and yet not afraid,0.4444444444444444,5.17,2.368382400018163,0.45810104449094063
+wav16k/034230154.wav,it was a great day this,it'll was a great day days,0.3333333333333333,3.395,1.7472259999485686,0.5146468335636432
+wav16k/034230164.wav,there was no play for him now,there was no pay for him now,0.14285714285714285,3.645,1.6326104999752715,0.4479041152195532
+wav16k/034230168.wav,but go up i will,but go app i will,0.2,3.245,1.555209600017406,0.47926335901923145
+wav16k/065040005.wav,we cannot take from them what they have not got,we cannot take from them what they have not got,0.0,4.865,2.029514000052586,0.4171662898360917
+wav16k/065040007.wav,then she turned and went,then she turned and the wind,0.4,3.19,1.6299850000068545,0.5109670846416472
+wav16k/065040009.wav,there is already a pretty larger collection,dahlia the already are pretty larger connection,0.5714285714285714,4.508,1.9278302999446169,0.42764647292471536
+wav16k/065040011.wav,i did not go near the tree,i did not go near the tree,0.0,3.22,1.5400949999457225,0.4782903726539511
+wav16k/065040028.wav,i do not wonder at her flying from him,i do not wonder had her flying from gene,0.2222222222222222,4.14,1.8311659999890253,0.4423106280166728
+wav16k/065040042.wav,for years this went on,four years this went on,0.2,3.241,1.509200399974361,0.4656588707110031
+wav16k/065040044.wav,your mother will ride home with me,your mother we are ride home with me,0.2857142857142857,3.38,1.6579576000804082,0.4905200000237894
+wav16k/065040045.wav,she went out with dirty caps,she went out with a dirty caps,0.16666666666666666,3.55,1.8696420000633225,0.5266597183276965
+wav16k/065040049.wav,you must decide for yourself,you must decide for yourself,0.0,3.043,1.4937760999891907,0.4908892868843873
+wav16k/065040077.wav,so they went into the library,so they went into their labrie,0.3333333333333333,3.475,1.6973276000935584,0.4884395971492254
+wav16k/065040112.wav,you follow my meaning,you follow my mean,0.25,2.759,1.4080922999419272,0.5103632837774292
+wav16k/065040118.wav,how on earth did he get there,how on earth did he get there,0.0,3.235,1.363198300008662,0.4213905100490455
+wav16k/065040124.wav,this is because they eat men,this is because they eat man,0.16666666666666666,3.23,1.6094953999854624,0.4982957894691834
+wav16k/065040125.wav,i ask for the last time,i asked for the last time,0.16666666666666666,2.9000625,1.5448651000624523,0.5327006228529393
+wav16k/065040126.wav,i went up to him,i went up to him,0.0,2.26,1.4015566000016406,0.6201577876113454
+wav16k/065040127.wav,i took the book from her,i took the book from her,0.0,2.745,1.6100105999503285,0.5865248087250741
+wav16k/065040133.wav,with that for a start all may be learned,where's that for start or maybe lens,0.6666666666666666,3.985,1.9680300999898463,0.4938594981153943
+wav16k/065040134.wav,she had to choose what to say,she had a to choose what to say,0.14285714285714285,3.37,1.8161670999834314,0.5389219881256473
+wav16k/065040137.wav,she did not know what to say,she did not know what to say,0.0,2.835,1.7328841000562534,0.611246596139772
+wav16k/065040160.wav,he made it his home,he made a at to his home,0.6,2.723,1.7510984999826178,0.6430769371952324
+wav16k/080570004.wav,yours is a pretty business,yours is operated businesses,0.6,2.648,1.788263399968855,0.675326057390051
+wav16k/080570009.wav,do you know anything of it,do you analysis of eater,0.5,2.28,2.156180499936454,0.9456932017265149
+wav16k/080570013.wav,but surely there is danger,by the surely there is tundra,0.6,2.89,2.142190800048411,0.7412424913662321
+wav16k/080570014.wav,then comes a blank in the paper,then comes up blanca use a paper,0.5714285714285714,3.111,1.913847399991937,0.6151872066833612
+wav16k/080570031.wav,it seemed all that he could do to speak,it isn't the all as our the hey quoted due to speaker,1.0,3.78,2.61654349998571,0.6922072751284947
+wav16k/080570053.wav,running by me beating my me,running by me beating miami,0.3333333333333333,3.52,1.7375155000481755,0.49361235796823166
+wav16k/080570067.wav,how shall i describe what we saw,how shall i describe what a waste so,0.42857142857142855,3.56,1.839305799920112,0.5166589325618292
+wav16k/080570071.wav,at least i shall be with my own people,and that these top i shall be worse in my own people,0.6666666666666666,3.78,2.6055596000514925,0.6893014814951038
+wav16k/080570072.wav,dress them in black and place them outside my tent,dress them a huge black and the place them other the seven my tent,0.6,5.31,2.301690799999051,0.4334634274951132
+wav16k/080570080.wav,if people laughed at her she laughed with them,a few more laughs at her she'll after with zone,0.7777777777777778,3.71,2.4939285999862477,0.672217951478773
+wav16k/080570081.wav,yes i am a romantic,yes it am a romantic,0.2,3.62,1.6447973999893293,0.45436392264898595
+wav16k/080570087.wav,at least he could know,at least the hague with the know,0.8,3.241,2.1138083999976516,0.6522087010174796
+wav16k/080570089.wav,she had stored them in her own room,she had a star the zombie you her own room,0.625,3.24,2.1666391000617296,0.6687157716239905
+wav16k/080570102.wav,is not every man able to say what he likes,isn't an every map able to see what his next,0.6,3.76,2.280423999996856,0.6064957446800149
+wav16k/080570127.wav,the dream was quite at an end,the general was quite as a under,0.5714285714285714,2.8,1.6156748000066727,0.5770267142880975
+wav16k/080570138.wav,she stopped for a moment,shh a starter for ammo and him,1.2,3.41,1.6975205999333411,0.49780662754643434
+wav16k/080570143.wav,it was a fine night and presently the moon appeared,is it was often i to under president delay the more apparent,0.9,4.94,2.627525300020352,0.5318877125547271
+wav16k/080570144.wav,get your uncle and aunt to ask her down,gather your uncle and enter to ask her down,0.2222222222222222,4.44,2.006284899893217,0.4518659684444182
+wav16k/080570146.wav,how is he getting along this morning,how is he getting along it's this morning,0.14285714285714285,3.6,1.8581631999695674,0.516156444435991
+wav16k/080570157.wav,the land was still lonely,the land the was doing one day,0.8,2.55,1.9094751999946311,0.7488138039194633
+wav16k/096000002.wav,but it is still only the first quarter,by eat her use deal or a the first quarter,0.875,6.489,2.699015900027007,0.41593710895777575
+wav16k/096000003.wav,and for all you know you could be right,and for oh your know y'all can be read,0.5555555555555556,7.8,1.8586212999653071,0.23828478204683426
+wav16k/096000004.wav,we are going to kill them but not that way,we ah go to kills a bath her know that her week,0.9,6.494,2.062241300009191,0.3175610255634726
+wav16k/096000005.wav,i have looked with my very eyes on hell,i have or local with my v re eye on you,0.6666666666666666,7.388,2.579387699952349,0.3491320655051907
+wav16k/096000006.wav,it was like they were lost or something,ito was like her the our laws of how are things you,1.25,7.44,2.4077106999466196,0.32361702956271765
+wav16k/096000007.wav,he made no move it would come what would come,hey may her no more will it her all came water or the kim,1.2,9.386,2.475709700025618,0.26376621564304475
+wav16k/096000008.wav,he was there when his best friend asked her out,who was there when he asked for in the as call her out,0.8,7.71,2.7278744000941515,0.35380990922103134
+wav16k/096000009.wav,what was he even about to say,what her war he evan about her toes he,0.8571428571428571,5.816,2.1968273000093177,0.3777213376907355
+wav16k/096000010.wav,i thought i would never smile again,i sinker the i called the nearest me are okay,1.1428571428571428,7.169,2.3157684999750927,0.3230253173350667
+wav16k/096000011.wav,you and i want the same thing,you're and i want her the thermal soon,0.5714285714285714,5.85,2.060468800016679,0.35221688889174
+wav16k/096000012.wav,this was the man who had killed his father,z the while the man who have will kill is a feather,1.0,7.053,2.6729962000390515,0.37898712605119117
+wav16k/096000013.wav,then i saw him at once,the in ice the he more at her answer,1.3333333333333333,5.629,1.8468840999994427,0.3281016343932213
+wav16k/096000014.wav,i must have walked into it,must her hair the worker on to it,1.1666666666666667,5.501,1.9078213999746367,0.3468135611660855
+wav16k/096000015.wav,he put his other hand on the wall as well,he put her he as or here the oh the or as the wheel,1.0,8.265,2.3395245000720024,0.2830640653444649
+wav16k/096000016.wav,but i was young then and a little too curious,batter our were young the and the be told to curious,0.8,7.69,2.5820276000304148,0.33576431729914363
+wav16k/096000017.wav,she's left me here to face him on my own,see nice to meet here too fast food he on my arm,0.9,7.991,2.38440520002041,0.29838633462900893
+wav16k/096000018.wav,she opened the door and looked around the bathroom,see open the door and the luca or wrong with the bass food group,1.1111111111111112,9.256,2.670081299962476,0.2884703219492735
+wav16k/096000020.wav,i do though and i am trying to make do,i too though and i am more try to america to,0.5,7.472,1.7088069999590516,0.2286947269752478
+wav16k/096000021.wav,it was not like she had any power over anything,he'd have one not like i she have war and the power or were an ac,1.2,9.111,2.839687099913135,0.3116767753169943
+wav16k/096000022.wav,she should be there in about an hour,see showed that be via in a bad ah ah ah,1.125,7.079,2.096304800012149,0.29613007487104803
+wav16k/096090001.wav,if he was called up again he would go again,before he was can and and he he want go and angling,0.8,11.945,2.5639734000433236,0.21464825450341762
+wav16k/096090003.wav,the girl then looked at her hand,to cook girl the t t v in look look look at eater alta thurs care of her car can't,2.4285714285714284,15.34,3.1401379000162706,0.20470260104408544
+wav16k/096090005.wav,what will they do if something happens to me,what windsor to you for some to mean have pays to me,1.0,9.68,2.45424680004362,0.2535378925664897
+wav16k/096090006.wav,we have the best people on this,we leave to peens pin on zone,0.7142857142857143,6.834,2.2510333999525756,0.3293873865894901
+wav16k/096090007.wav,it was as much as my life was worth,ito was awesome the march awesome i love worse ones,1.0,11.72,2.630915000103414,0.22448080205660528
+wav16k/096090008.wav,there was no way to tell for sure,the was know when to join for stresses vn,0.75,11.665,2.8089878999162465,0.24080479210597916
+wav16k/096090010.wav,i want to know what happened but not now,i want to can can weigh the the art have he doth barter no noon,1.3333333333333333,12.3850625,3.038234099978581,0.2453143938497348
+wav16k/096090011.wav,i could just barely see it from here,i can do the job says boo ban tell lies see eater for he's the,1.625,11.074,2.5035076000494882,0.22607076034400292
+wav16k/096090014.wav,i made him look me into the eyes,i media fee luca me in the tours on he was these,1.125,8.41,2.6717561000259593,0.317688002381208
+wav16k/096090015.wav,this is not going to work,tz is now to go to work,0.6666666666666666,6.67,1.9928088000742719,0.2987719340441187
+wav16k/096090017.wav,i was completely in my own world right now,i was calm or plays the was he in my oh windsor re guess now it's war,1.3333333333333333,14.39,3.5278397999936715,0.24515912439149906
+wav16k/096090018.wav,that must not be it,t as mosque know be eat,1.0,6.946,2.207114899996668,0.31775336884489896
+wav16k/096090019.wav,i was found by them when i was a baby,i was for by the worse i asked a bird,0.5,11.254,2.3943732999032363,0.21275753509003345
+wav16k/096090020.wav,but even that is putting her will first,but even the is present hey worse for ras,0.75,9.605,2.505821100086905,0.2608871525337746
+wav16k/096090021.wav,so i will make a bargain with you,so i wired make a be bars on even worse you,0.75,11.7650625,2.587640200043097,0.2199427499890542
+wav16k/096090023.wav,i have watched you long enough to know that,i who want you look your you in to came train,0.8888888888888888,11.407,2.5922644999809563,0.2272520820532091
+wav16k/096090024.wav,she had always thought of me as an enemy,shay he'd asked her to gaiety of me us and we,1.0,9.302,2.5148863999638706,0.27035975058738665
+wav16k/096090025.wav,but where was she that she seemed so absent,but wiens worse she take she's serene saw a clean,0.8888888888888888,8.525,2.531735899974592,0.2969778181788378
+wav16k/096090026.wav,he was at a better place,hi worse art a bird played,0.8333333333333334,5.08,1.6202297999989241,0.3189428740155362
+wav16k/096090027.wav,she accepted it and put it with her things,she asked her print he in and blued eat worse key chain,1.1111111111111112,8.997,2.3894087000517175,0.26557838168853143
+wav16k/096300001.wav,how was i going to get out of here,how was i go to canada also over where,0.5555555555555556,4.018,2.1673785999882966,0.5394172722718509
+wav16k/096300002.wav,he looked back at her,hey look like of her,0.8,3.018,1.8827130000572652,0.6238280318281197
+wav16k/096300003.wav,and you like it that way,i you like her he of the guys who me,1.3333333333333333,4.127,2.033407999901101,0.49270850494332474
+wav16k/096300004.wav,but this is not what she had wanted,fatso these were the who she had a want her,1.0,5.23,2.86809440003708,0.5483928107145468
+wav16k/096300005.wav,they are one in the same,see either one new the theme,0.6666666666666666,3.817,1.22550910001155,0.3210660466365077
+wav16k/096300006.wav,she smiled and walked with him,she's now thought to for korea's of hey,1.3333333333333333,4.573,2.395707599935122,0.5238809534080738
+wav16k/096300007.wav,there is no need to go there,there was no neither to go here,0.42857142857142855,3.894,1.9874235999304801,0.5103809963868722
+wav16k/096300008.wav,so what then were we to do,so what's her than or the of real to,1.1428571428571428,5.061,2.4537464999593794,0.4848343212723532
+wav16k/096300009.wav,i think i will right now,i saw to avail right now,0.5,3.222,1.5721525000408292,0.4879430478090718
+wav16k/096300010.wav,you look over and you see a boy,you know could the over under your say oh boy,0.875,3.825,1.9980063999537379,0.5223546143669903
+wav16k/096300011.wav,i saw you take them,i see your teeth her the,1.0,3.282,1.7429272999288514,0.5310564594542508
+wav16k/096300012.wav,i thought to myself as i made up my mind,i saw to myself well as the i my apple my my,0.6,5.375,2.1987555000232533,0.4090707907020006
+wav16k/096300013.wav,that is they would if i had any friends,what's a the the order a fly how on their friend,1.2222222222222223,5.182,2.5125256999162957,0.48485636818145417
+wav16k/096300014.wav,this time it was a woman,that's a time with a to took or alma,1.3333333333333333,3.339,2.119572600000538,0.6347926325248691
+wav16k/096300015.wav,i turned around to face it,i turn or wrong to face the theater,0.8333333333333334,3.699,2.000174600048922,0.5407338740332311
+wav16k/096300016.wav,it was the only room with the door still closed,hey to a low on a roll where the doors to your clothes,1.2,6.203,3.0248565999791026,0.48764413992892186
+wav16k/096300017.wav,and it just might be,santa fe such as to my p,1.4,4.057,2.3723021000623703,0.5847429381469978
+wav16k/096300018.wav,i left her at home,i love for him more as a home,1.2,3.302,1.532149700098671,0.4640065718045642
+wav16k/096300019.wav,he looked away from it,see luke her away from her,0.8,3.436,2.023679399979301,0.5889637368973518
+wav16k/096300020.wav,but it was even so,thunder latter was it even so,0.6,3.69,2.2869559000246227,0.619771246619139

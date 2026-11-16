@@ -1,0 +1,47 @@
+=== EKSPERIMEN PENGARUH NOISE TERHADAP WER ASR ===
+Untuk menguji pengaruh penambahan noise terhadap performa model ASR lokal dengan membandingkan hasil transkripsi pada kondisi audio clean dan beberapa tingkat Signal-to-Noise Ratio (SNR).
+
+=== DATA DAN KONFIGURASI ===
+Dataset split     : Validation  
+Jumlah utterance  : 400  
+ASR model         : Vosk - vosk-model-small-en-us-0.15  
+Jenis noise       : White noise  
+Kondisi pengujian : Clean, 20 dB, 10 dB, 5 dB  
+Random seed       : 42 + index utterance  
+Audio clean dan audio yang telah ditambahkan noise diproses menggunakan jalur transkripsi array.
+
+=== HASIL EKSPERIMEN ===
+Kondisi | Jumlah audio | Corpus WER | Avg. utterance WER | Overall RTF
+Clean | 400 | 51.28% | 51.51% | 0.734  
+20 dB | 400 | 52.00% | 52.02% | 0.752  
+10 dB | 400 | 57.07% | 58.10% | 0.736  
+5 dB  | 400 | 67.61% | 69.01% | 0.580  
+
+=== PERUBAHAN WER DIBANDINGKAN KONDISI CLEAN ===
+20 dB : naik 0.72 percentage point  
+10 dB : naik 5.79 percentage point  
+5 dB  : naik 16.33 percentage point  
+
+=== PEMBAHASAN ===
+- Hasil eksperimen menunjukkan bahwa semakin rendah nilai SNR, semakin tinggi WER yang diperoleh.
+- Pada kondisi 20 dB, WER meningkat sedikit dibandingkan kondisi clean. Pada kondisi 10 dB, peningkatan WER lebih terlihat. Sementara itu, kondisi 5 dB menghasilkan WER tertinggi, yaitu 67.61%.
+- Hal ini menunjukkan bahwa penambahan white noise dapat menurunkan performa pengenalan suara pada model ASR yang digunakan.
+
+=== CATATAN ===
+1. Noise yang digunakan merupakan white noise sintetis, bukan rekaman noise lingkungan nyata.
+2. RTF pada eksperimen ini merupakan hasil pengukuran pemrosesan audio dan bukan latency streaming per chunk.
+3. WER clean sebesar 51.28% berbeda dari hasil evaluasi utama sebesar 50.72% karena menggunakan jalur pemrosesan yang berbeda.
+4. Eksperimen menggunakan validation set. Test set tidak digunakan dalam pengujian ini.
+
+=== KESIMPULAN ===
+- Penambahan white noise diikuti dengan peningkatan WER pada validation set. Kondisi 5 dB menghasilkan WER tertinggi sebesar 67.61%, dengan peningkatan 16.33 percentage point dibandingkan kondisi clean.
+- Hasil ini menunjukkan bahwa model ASR mengalami penurunan performa ketika audio diberi gangguan white noise sintetis.
+
+=== OUTPUT ===
+File hasil:
+- reports/asr/noise_detail.csv
+- reports/asr/noise_summary.csv
+
+Script:
+- asr/evaluate_noise.py
+- asr/evaluate_noise_full.py

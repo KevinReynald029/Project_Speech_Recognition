@@ -1,0 +1,51 @@
+=== EVALUASI WORD ERROR RATE (WER) ASR ===
+Untuk mengukur kemampuan model ASR lokal dalam mengenali ucapan bahasa Inggris dengan membandingkan hasil transkripsi model terhadap teks referensi (ground truth).
+
+=== DATA DAN KONFIGURASI ===
+Dataset split      : Validation  
+Jumlah utterance   : 400  
+Total durasi audio : 1589.39 detik  
+ASR model          : Vosk - vosk-model-small-en-us-0.15  
+Sample rate        : 16.000 Hz  
+Audio channel      : Mono  
+Audio format       : PCM 16-bit  
+Evaluasi menggunakan validation set. Test set tidak digunakan dalam pengujian ini.
+
+=== METRIK EVALUASI ===
+1. Word Error Rate (WER)
+Mengukur tingkat kesalahan transkripsi berdasarkan jumlah substitution, deletion, dan insertion dibandingkan jumlah kata pada teks referensi.
+
+WER = (S + D + I) / N
+
+Keterangan:
+- S : Substitution
+- D : Deletion
+- I : Insertion
+- N : Jumlah kata pada teks referensi
+
+2. Average Utterance WER
+Menghitung rata-rata WER dari setiap utterance.
+
+3. Real-Time Factor (RTF)
+Membandingkan waktu pemrosesan dengan total durasi audio. RTF di bawah 1 menunjukkan bahwa total pemrosesan lebih cepat daripada total durasi audio pada pengujian tersebut.
+
+=== HASIL EVALUASI ===
+Jumlah audio             : 400  
+Corpus WER               : 50.72%  
+Average utterance WER    : 50.86%  
+Total durasi audio       : 1589.39 detik  
+Total processing time    : 1131.55 detik  
+Overall RTF              : 0.712  
+
+=== INTERPRETASI ===
+- Corpus WER yang diperoleh sebesar 50.72%. Hasil ini menunjukkan bahwa model masih menghasilkan cukup banyak kesalahan kata ketika mengenali ucapan pada validation set.
+- Overall RTF sebesar 0.712 menunjukkan bahwa total waktu pemrosesan file audio lebih singkat dibandingkan total durasi audio yang diproses.
+- Namun, RTF tersebut merupakan hasil pengukuran pemrosesan file secara keseluruhan dan bukan pengukuran latency streaming per chunk.
+
+=== OUTPUT ===
+File hasil evaluasi: reports/asr/wer_val.csv
+Script: asr/evaluate_wer.py
+
+=== CATATAN ===
+Pada eksperimen noise, kondisi clean menghasilkan WER sebesar 51.28%. Angka tersebut berasal dari jalur pemrosesan array audio, sedangkan evaluasi utama ini menggunakan `transcribe_file()`.
+Karena jalur pemrosesan berbeda, kedua hasil clean tersebut dilaporkan secara terpisah dan tidak dianggap sebagai baseline yang identik.

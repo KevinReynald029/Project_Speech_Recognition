@@ -28,3 +28,14 @@ reports/gop/*
 !reports/gop/test_gop_calibrated.png
 !reports/gop/test_detection.png
 examples/generated/
+*.pyc
+!reports/asr/
+reports/asr/*
+!reports/asr/wer_val.csv
+!reports/asr/noise_detail.csv
+!reports/asr/noise_summary.csv
+!reports/11_asr_implementation.txt
+!reports/12_asr_wer_evaluation.txt
+!reports/13_asr_error_analysis.txt
+!reports/14_asr_noise_experiment.txt
+!reports/gop/
